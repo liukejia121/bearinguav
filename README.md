@@ -142,19 +142,26 @@ pip install -r requirements.txt
 
 ## Operation
 ### Training
+```bash
 ./scripts/cvphr_train.sh
+```
 
 ### Testing
+```bash
 ./scripts/cvphr_test.sh
+```
 
 ### Navigation Test
+```bash
 ./scripts/run_nav.sh
-
+```
 
 # ✒️Citation
+```text
 @article{xxx2026bearinguav,
   title={Beyond Matching to Tiles: Bridging Unaligned Aerial and Satellite Views for Vision-Only UAV Navigation},
   author={Kejia Liu, Haoyang Zhou, Ruoyu Xu, Peicheng Wang, Mingli Song, Haofei Zhang},
   journal={CVPR},
   year={2026}
 }
+```
