@@ -4,10 +4,10 @@ We present Bearing-UAV and its navigation scheme Bearing-Naver.
 ✈️**Bearing-UAV** is a purely vision-driven cross-view navigation method that jointly predicts UAV absolute location and heading from neighboring features and current UAV view, enabling accurate, lightweight, and robust navigation in the wild.
 ![Bearing-UAV](./source/illustration//bearing.jpg "Bearing-UAV overview.")
 
-**Bearing-Naver** is a purely vision-driven point-to-point navigation scheme along specified waypoints in urban scenes. Initialized from a known start position in a certain satellite block with four tiles, this navigation scheme can be summarized as sequentially searching for the next step via Bearing-UAV.
+🗺️**Bearing-Naver** is a purely vision-driven point-to-point navigation scheme along specified waypoints in urban scenes. Initialized from a known start position in a certain satellite block with four tiles, this navigation scheme can be summarized as sequentially searching for the next step via Bearing-UAV.
 ![Bearing-Naver](./source/illustration//naver.jpg "Bearing-Naver’s operating mode.")
 
-We also present **Bearing-UAV-90K**, a multi-city benchmark for evaluating cross-view localization and navigation.
+We also present 🖼️**Bearing-UAV-90K**, a multi-city benchmark for evaluating cross-view localization and navigation.
 ![Bearing-UAV-90K](./source/illustration//city1234_rsi.jpg "Four Cities with Distinct Landscapes: UAV-View and Corresponding Satellite-View Patches from the dataset.")
 
 
@@ -102,11 +102,9 @@ The project follows a structured layout for vision-driven UAV navigation researc
     │
     └── results/                             # [Results Output]
         └── c4ma/                            # Model Training & Testing Results (Includes Best Model)
-
+```
 
 # ✨Function
-## scripts
-    Function: Model training, testing, and navigation inference scripts.
 
 ## Model
 ### [cvphr/train/cvphr_train.py]
@@ -120,6 +118,9 @@ The project follows a structured layout for vision-driven UAV navigation researc
 ### [naver/runners/nav.py]
     Purpose: Run UAV Navigation Test & Log Results
     Prerequisites: waypoint file already in loc2traj/traj_wps_gcs
+
+## scripts
+    Function: Model training, testing, and navigation inference scripts.
 
 ## log，loc2traj，results
     Function: Process Logs and Results.
