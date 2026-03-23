@@ -1,18 +1,20 @@
 # Introduction
 
 We present Bearing-UAV and its navigation scheme Bearing-Naver. 
-**Bearing-UAV** is a purely vision-driven cross-view navigation method that jointly predicts UAV absolute location and heading from neighboring features and current UAV view, enabling accurate, lightweight, and robust navigation in the wild.
-![Bearing-UAV](./source/bearing.jpg "Bearing-UAV overview.")
+✈️**Bearing-UAV** is a purely vision-driven cross-view navigation method that jointly predicts UAV absolute location and heading from neighboring features and current UAV view, enabling accurate, lightweight, and robust navigation in the wild.
+![Bearing-UAV](./source/illustration//bearing.jpg "Bearing-UAV overview.")
 
 **Bearing-Naver** is a purely vision-driven point-to-point navigation scheme along specified waypoints in urban scenes. Initialized from a known start position in a certain satellite block with four tiles, this navigation scheme can be summarized as sequentially searching for the next step via Bearing-UAV.
-![Bearing-Naver](./source/naver.jpg "Bearing-Naver’s operating mode.")
+![Bearing-Naver](./source/illustration//naver.jpg "Bearing-Naver’s operating mode.")
 
 We also present **Bearing-UAV-90K**, a multi-city benchmark for evaluating cross-view localization and navigation.
-![Bearing-UAV-90K](./source/city1234_rsi.jpg "Four Cities with Distinct Landscapes: UAV-View and Corresponding Satellite-View Patches from the dataset.")
+![Bearing-UAV-90K](./source/illustration//city1234_rsi.jpg "Four Cities with Distinct Landscapes: UAV-View and Corresponding Satellite-View Patches from the dataset.")
 
 
-# Code Architecture
+# 🏗️ Architecture
+The project follows a structured layout for vision-driven UAV navigation research.
 
+```text
 <bearinguav>/                                # Project Root
     │
     ├── README.md                            # Main Documentation
@@ -102,10 +104,9 @@ We also present **Bearing-UAV-90K**, a multi-city benchmark for evaluating cross
         └── c4ma/                            # Model Training & Testing Results (Includes Best Model)
 
 
-# Features Overview
+# ✨Function
 ## scripts
     Function: Model training, testing, and navigation inference scripts.
-
 
 ## Model
 ### [cvphr/train/cvphr_train.py]
@@ -125,7 +126,7 @@ We also present **Bearing-UAV-90K**, a multi-city benchmark for evaluating cross
 
 
 
-# User Guide
+# 🛠️Usage
 
 ## Code & Dataset
 Download BearingUAV source code, dataset (http), and weights (http) from GitHub & Hugging Face, extract to appropriate locations.
@@ -148,3 +149,11 @@ pip install -r requirements.txt
 ### Navigation Test
 ./scripts/run_nav.sh
 
+
+# ✒️Citation
+@article{xxx2026bearinguav,
+  title={Beyond Matching to Tiles: Bridging Unaligned Aerial and Satellite Views for Vision-Only UAV Navigation},
+  author={Kejia Liu, Haoyang Zhou, Ruoyu Xu, Peicheng Wang, Mingli Song, Haofei Zhang},
+  journal={CVPR},
+  year={2026}
+}
