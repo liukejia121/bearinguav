@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+__readme/
+_legacy/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode/Cursor
+.vscode/
+
+# OS0
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+log/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Data / weights (根据你的项目情况调整)
+Bearing_UAV_90K/
+Bearing-UAV/
+dataset_visual/
+check_2traj
+loc2traj/*_timestamp*/
+results/
+datasets/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Large archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.pt
+*.ckpt
+*.onnx
+
+# Large archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+#file
+config/path_modify.py
+config/path_modify_.py
+results/history/dataset_history.json
+nohup.out
+
+#temp documents
+_docs
+scripts_explore/

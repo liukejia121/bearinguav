@@ -1,0 +1,6 @@
+# Thumbnail preview of remote-sensing images from four cities
+# city_rsi: Resolution 0.25m/pixel. Generate the satellite-view sample set for CVPHR based on this.
+image_id_map["35.67091338738739_139.69289911300856_1791.95_1024_1024_4326_city.jpg"]  = '34bc'   # Tokyo, Japan -- 0.25m/pixel
+image_id_map["25.030947387387386_121.51462868800057_1791.95_1024_1024_4326_city.jpg"] = '36bc'   # Taipei, Taiwan (China) -- 0.25m/pixel
+image_id_map["1.2897673873873876_103.84197619336068_1791.95_1024_1024_4326_city.jpg"] = '37bc'   # Singapore -- 0.25m/pixel
+image_id_map["37.75538738738739_-122.4533351740761_1791.95_1024_1024_4326_city.jpg"]  = '38bc'   # San Francisco, USA -- 0.25m/pixel
