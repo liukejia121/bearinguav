@@ -15,25 +15,25 @@ We also present 🖼️**Bearing-UAV-90K**, a multi-city benchmark for evaluatin
 The project follows a structured layout for vision-driven UAV navigation research.
 
 ```text
-<bearinguav>/                                # Project Root
+<bearinguav>/                                # [Project Root]
     │
-    ├── README.md                            # Main Documentation
-    ├── requirements.txt                     # Dependencies
+    ├── README.md                            # Main Documentation.
+    ├── requirements.txt                     # Dependencies.
     │
     ├── <Bearing_UAV_90K>/                   # [Benchmark]
-    │   ├── city_rsi/                        # 4 City Remote Sensing Images
+    │   ├── city_rsi/                        # 4 City Remote Sensing Images.
     │   ├── citya                            # Dataset of City A.
     │   │   ├──uav_254k_37bc_b15_s100(45000) # 22500 UAV-view patches and their json files.
     │   │   ├──sat_254k_37bc_b15_s100(23400) # 22500 Satellite-view patches and 900 remote sensing tiles.
     │   │   └──rawmetadata.csv               # Raw Sample Metadata.
-    │   ├── cityb
-    │   ├── cityc
-    │   ├── cityd
+    │   ├── cityb                            # Dataset of City B.
+    │   ├── cityc                            # Dataset of City C.
+    │   ├── cityd                            # Dataset of City D.
     │   │
-    │   ├──c4m_254k_96bc_b15_s100_v3d/       # UAV-Satellite Cross-View Dataset Index.
+    │   ├──c4m_254k_96bc_b15_s100_v3d/       # UAV-Satellite Cross-View Dataset Index Files.
     │   │   └──metadata/
     │   │          └──metadata.csv    
-    │   ├──c4m_254k_96bc_b15_s100/           # Satellite-Satellite Reference Dataset Index.
+    │   ├──c4m_254k_96bc_b15_s100/           # Satellite-Satellite Reference Dataset Index Files.
     │   ├──c1_254k_96bc_b15_s1_v3d/          # Mini Multi-City Debug Dataset.
     │   ├──c1_254k_96bc_b15_s1/              # Mini Multi-City Debug Dataset.
     │   └──c1_254k_37bc_b15_s1_v3d/          # Mini Single-City Debug Dataset.
@@ -48,75 +48,74 @@ The project follows a structured layout for vision-driven UAV navigation researc
     │       └──training_configure.json       # Model Config.
     │
     ├── <config>/                            # [Configuration]
-    │   ├── base_info.py                     # Base Config
-    │   └── paths.py                         # Path Management
+    │   ├── base_info.py                     # Base Config.
+    │   └── paths.py                         # Path Management.
     │
     ├── <cvphr>/                             # [Core Module]
     │   │
-    │   ├── models/                          # Model Definitions
+    │   ├── models/                          # Model Definitions.
     │   │   ├── core/                        # Base Models
-    │   │   │   └── registry.py              # Registry, Conflict Detection & Builder
-    │   │   └── posaglreg/                   # POSAGLREG Models
-    │   │       └── models.py
+    │   │   │   └── registry.py              # Registry, Conflict Detection & Builder.
+    │   │   └── posaglreg/                   # POSAGLREG Models.
+    │   │       └── models.py                # CVPHR model Script.
     │   │
-    │   ├── train/                           # Training Module
-    │   │   └── cvphr_train.py               # CVPHR Training Script
+    │   ├── train/                           # Training Module.
+    │   │   └── cvphr_train.py               # CVPHR Training Script.
     │   │
-    │   ├── test/                            # Testing Module
-    │   │   └── cvphr_test.py                # CVPHR Testing Script
+    │   ├── test/                            # Testing Module.
+    │   │   └── cvphr_test.py                # CVPHR Testing Script.
     │   │
-    │   └── utils/                           # Utilities
-    │       ├── utils.py                     # Common Utilities
-    │       └── utils_transform.py           # Common Utilities
+    │   └── utils/                           # Utilities.
+    │       ├── utils.py                     # Common Utilities.
+    │       └── utils_transform.py           # Common Utilities for transform pipe line.
     │
     ├── <naver>/                             # [UAV Navigation]
-    │   └── runners/                         # Navigation Runners
-    │       ├── nav.py                       # Main Navigation Runner
-    │       └── visnav.py                    # Visualization Tools
+    │   └── runners/                         # Navigation Runners.
+    │       ├── nav.py                       # Main Navigation Runner.
+    │       └── visnav.py                    # Visualization Tools.
     │
     ├── <sceneGraphEncodingNet>/             # [Scene Graph Encoding Network]
-    │   ├── nets.py                          # Network Definitions
-    │   └── non_local_dot_product.py         # Non-Local Dot Product
+    │   ├── nets.py                          # Network Definitions.
+    │   └── non_local_dot_product.py         # Non-Local Dot Product.
     │
     ├── <source>/                            # [Source Code]
-    │   │── uav_logo.py                      # UAV Logo Operations
-    │   │── uav_logo                         # UAV Logo Assets
-    │   │   ├── plane.png                    # UAV Logo 1
-    │   │   └── uav_white.png                # UAV Logo 2
+    │   │── uav_logo.py                      # UAV Logo Operations.
+    │   │── uav_logo                         # UAV Logo Assets.
+    │   │   └── plane.png                    # UAV Logo image.
     │   ├── font/                            # Fonts
-    │   │   └── Helvetica.ttc                # CVPR Plotting Font
-    │   └── illustration/                    # Illustrations
+    │   │   └── Helvetica.ttc                # CVPR Plotting Font.
+    │   └── illustration/                    # Illustration images.
     │
     ├── <scripts>/                           # [Shell Scripts]
-    │   ├── cvphr_train.sh                   # CVPHR Training Script
-    │   ├── cvphr_test.sh                    # CVPHR Testing Script
-    │   └── run_nav.sh                       # 运行导航脚本
+    │   ├── cvphr_train.sh                   # CVPHR Training Script.
+    │   ├── cvphr_test.sh                    # CVPHR Testing Script.
+    │   └── run_nav.sh                       # Navigation script.
     │
     ├── log/                                 # [Logs]
-    │   ├── c4ma/                            # Training/Testing Logs
-    │   └── nav/                             # Navigation Logs
+    │   ├── c4ma/                            # Training/Testing Logs.
+    │   └── nav/                             # Navigation Logs.
     │
     ├── loc2traj/                            # [Routes & Navigation Results]
-    │   └── traj_wps_gcs/                    # Waypoint Path Files (Pre-defined)
+    │   └── traj_wps_gcs/                    # Waypoint Path Files (Pre-defined).
     │
     └── results/                             # [Results Output]
-        └── c4ma/                            # Model Training & Testing Results (Includes Best Model)
+        └── c4ma/                            # Model Training & Testing Results (Includes Best Model).
 ```
 
 # ✨Function
 
 ## Model
 ### [cvphr/train/cvphr_train.py]
-    Function: Train CVPHR Model
-    Run: ./scripts/cvphr_train.sh
+    Function: Train CVPHR Model.
+    Run: ./scripts/cvphr_train.sh.
 ### [cvphr/train/cvphr_test.py]
-    Function: Test CVPHR Model
-    Run: ./scripts/cvphr_test.sh
+    Function: Test CVPHR Model.
+    Run: ./scripts/cvphr_test.sh.
 
 ## Navigation
 ### [naver/runners/nav.py]
-    Purpose: Run UAV Navigation Test & Log Results
-    Prerequisites: waypoint file already in loc2traj/traj_wps_gcs
+    Purpose: Run UAV Navigation Test & Log Results.
+    Prerequisites: waypoint file already in loc2traj/traj_wps_gcs.
 
 ## scripts
     Function: Model training, testing, and navigation inference scripts.
