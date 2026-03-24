@@ -7,7 +7,7 @@ We present Bearing-UAV and its navigation scheme Bearing-Naver.
 🗺️**Bearing-Naver** is a purely vision-driven point-to-point navigation scheme along specified waypoints in urban scenes. Initialized from a known start position in a certain satellite block with four tiles, this navigation scheme can be summarized as sequentially searching for the next step via Bearing-UAV.
 ![Bearing-Naver](./source/illustration//naver.jpg "Bearing-Naver’s operating mode.")
 
-We also present 🖼️**Bearing-UAV-90K**, a multi-city benchmark for evaluating cross-view localization and navigation.
+We also present 🖼️**Bearing-UAV-90K**, a multi-city benchmark for evaluating UAV-satellite cross-view localization and navigation.
 ![Bearing-UAV-90K](./source/illustration//city1234_rsi.jpg "Four Cities with Distinct Landscapes: UAV-View and Corresponding Satellite-View Patches from the dataset.")
 
 
@@ -19,7 +19,6 @@ The project follows a structured layout for vision-driven UAV navigation researc
     │
     ├── README.md                            # Main Documentation
     ├── requirements.txt                     # Dependencies
-    ├── .gitignore                           # Git Ignore Config
     │
     ├── <Bearing_UAV_90K>/                   # [Benchmark]
     │   ├── city_rsi/                        # 4 City Remote Sensing Images
@@ -130,7 +129,7 @@ The project follows a structured layout for vision-driven UAV navigation researc
 # 🛠️Usage
 
 ## Code & Dataset
-Download BearingUAV source code, dataset (http), and weights (http) from GitHub & Hugging Face, extract to appropriate locations.
+Download BearingUAV source code, dataset and weights (https://huggingface.co/datasets/HaoyZhou/bearing_uav/tree/main) from GitHub & Hugging Face, extract to appropriate locations.
 
 ## Environment
 Clone this repo and install dependencies:
