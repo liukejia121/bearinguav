@@ -128,7 +128,7 @@ The project follows a structured layout for vision-driven UAV navigation researc
 # 🛠️Usage
 
 ## Code & Dataset
-Download BearingUAV source code, dataset and weights (https://huggingface.co/datasets/HaoyZhou/bearing_uav/tree/main) from GitHub & Hugging Face, extract to appropriate locations.
+Download BearingUAV source code, dataset and weights (https://huggingface.co/datasets/HaoyZhou/bearinguav/tree/main) from GitHub & Hugging Face, extract to appropriate locations.
 
 ## Environment
 Clone this repo and install dependencies:
