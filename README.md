@@ -1,3 +1,36 @@
+# Bearing-UAV
+<div align="center">
+  <h1 style="font-size: 50px; font-weight: 900; color: #222;">
+    Bearing-UAV
+  </h1>
+</div>
+
+<div align="center">
+  <h1 style="font-size: 42px; color: #2563eb; font-weight: 800; letter-spacing: 2px;">
+    Bearing-UAV
+  </h1>
+  <p style="font-size: 18px; color: #666;">无人机导航与定位支撑系统 | UAV Navigation & Bearing System</p>
+</div>
+
+<div align="center">
+  <h1 style="font-size: 45px; font-weight: bold; background: linear-gradient(90deg, #4361EE, #06B6D4, #10B981); -webkit-background-clip: text; color: transparent;">
+    Bearing-UAV
+  </h1>
+</div>
+
+<div align="center">
+  <h1 style="font-size: 40px; color: #0070E0; text-shadow: 0 0 5px rgba(0,112,224,0.3);">
+    Bearing-UAV
+  </h1>
+  <p style="font-size: 16px; color:#444">基于 Bearing 算法的无人机智能控制系统</p>
+</div>
+
+
+<div align="center">
+  <img src="./source/illustration/bearing_logo.jpg" width="200" alt="Bearing-UAV overview." style="border-radius:1px">
+</div>
+
+
 # Introduction
 
 We present Bearing-UAV and its navigation scheme Bearing-Naver. 
