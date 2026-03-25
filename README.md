@@ -104,7 +104,7 @@ The project follows a structured layout for vision-driven UAV navigation researc
 
 # ✨Function
 
-## Model
+## 📍Model
 ### [cvphr/train/cvphr_train.py]
     Function: Train CVPHR Model.
     Run: ./scripts/cvphr_train.sh.
@@ -112,25 +112,26 @@ The project follows a structured layout for vision-driven UAV navigation researc
     Function: Test CVPHR Model.
     Run: ./scripts/cvphr_test.sh.
 
-## Navigation
+## 📍Navigation
 ### [naver/runners/nav.py]
     Purpose: Run UAV Navigation Test & Log Results.
     Prerequisites: waypoint file already in loc2traj/traj_wps_gcs.
+    Run: ./scripts/run_nav.sh.
 
-## scripts
+## 📍scripts
     Function: Model training, testing, and navigation inference scripts.
 
-## log，loc2traj，results
+## 📍log，loc2traj，results
     Function: Process Logs and Results.
 
 
 
 # 🛠️Usage
 
-## Code & Dataset
-Download BearingUAV source code, dataset and weights (https://huggingface.co/datasets/HaoyZhou/bearinguav/tree/main) from GitHub & Hugging Face, extract to appropriate locations.
+## 🔨Code & Dataset
+Download BearingUAV source code, dataset (https://huggingface.co/datasets/HaoyZhou/bearinguav/tree/main) and weights (https://huggingface.co/HaoyZhou/bearinguav/tree/main) from GitHub & Hugging Face, extract to appropriate locations.
 
-## Environment
+## 🔨Environment
 Clone this repo and install dependencies:
 ```bash
 git clone https://github.com/liukejia121/bearinguav.git
@@ -138,7 +139,7 @@ cd /your/path/of/proj/bearinguav
 pip install -r requirements.txt
 ```
 
-## Operation
+## 🔨Operation
 ### Training
 ```bash
 ./scripts/cvphr_train.sh
@@ -162,4 +163,5 @@ pip install -r requirements.txt
   journal={CVPR},
   year={2026}
 }
+(https://arxiv.org/abs/2603.22153)
 ```
