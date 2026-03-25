@@ -62,6 +62,7 @@ config/path_modify.py
 config/path_modify_.py
 results/history/dataset_history.json
 nohup.out
+CONTRIBUTING.md
 
 #temp documents
 _docs
