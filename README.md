@@ -2,13 +2,20 @@
 
 We present Bearing-UAV and its navigation scheme Bearing-Naver. 
 ✈️**Bearing-UAV** is a purely vision-driven cross-view navigation method that jointly predicts UAV absolute location and heading from neighboring features and current UAV view, enabling accurate, lightweight, and robust navigation in the wild.
-![Bearing-UAV](./source/illustration//bearing.jpg "Bearing-UAV overview.")
+<div align="center">
+  <img src="./source/illustration/bearing.jpg" width="400" alt="Bearing-UAV overview." style="border-radius:8px">
+</div>
 
 🗺️**Bearing-Naver** is a purely vision-driven point-to-point navigation scheme along specified waypoints in urban scenes. Initialized from a known start position in a certain satellite block with four tiles, this navigation scheme can be summarized as sequentially searching for the next step via Bearing-UAV.
-![Bearing-Naver](./source/illustration//naver.jpg "Bearing-Naver’s operating mode.")
+<div align="center">
+  <img src="./source/illustration/naver.jpg" width="400" alt="Bearing-Naver’s operating mode." style="border-radius:8px">
+</div>
 
 We also present 🖼️**Bearing-UAV-90K**, a multi-city benchmark for evaluating UAV-satellite cross-view localization and navigation.
-![Bearing-UAV-90K](./source/illustration//city1234_rsi.jpg "Four Cities with Distinct Landscapes: UAV-View and Corresponding Satellite-View Patches from the dataset.")
+<div align="center">
+  <img src="./source/illustration/bearing.jpg" width="600" alt="Four Cities with Distinct Landscapes: UAV-View and Corresponding Satellite-View Patches from the dataset.." style="border-radius:1px">
+</div>
+
 
 
 # 🏗️ Architecture
