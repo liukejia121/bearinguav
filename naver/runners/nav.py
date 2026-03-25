@@ -1149,13 +1149,13 @@ def parse_args():
     parser.add_argument(
         "--cvphr_3d_best_model_dir",
         type=str,
-        default="./Bearing-UAV/cross_view",
+        default="./Bearing_UAV/cross_view",
         help="3D best model directory",
     )
     parser.add_argument(
         "--cvphr_2d_best_model_dir",
         type=str,
-        default="./Bearing-UAV/satellite_view",
+        default="./Bearing_UAV/satellite_view",
         help="2D best model directory",
     )
 

@@ -30,7 +30,8 @@ dist/
 
 # Data / weights (根据你的项目情况调整)
 Bearing_UAV_90K/
-Bearing-UAV/
+Bearing_UAV_paper/
+Bearing_UAV/
 dataset_visual/
 check_2traj
 loc2traj/*_timestamp*/

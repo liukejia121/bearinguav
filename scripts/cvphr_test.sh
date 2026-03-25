@@ -21,10 +21,10 @@ is_3d=1       # 0=2D: satellite view; 1=3D: UAV view.
 
 # Model weight path: 1.2D; 2. 3D; 3. Your trained model.
 # 2D model: Pre-trained cvphr_2d_best_model_dir 
-# bestpth_dir="./Bearing-UAV/satellite_view" 
+# bestpth_dir="./Bearing_UAV/satellite_view" 
 
 # 3D model: Pre-trained cvphr_3d_best_model_dir 
-bestpth_dir="./Bearing-UAV/cross_view" 
+bestpth_dir="./Bearing_UAV/cross_view" 
 
 # User model: Your trained model dir:
 # bestpth_dir="${project_root}/results/c4ma/phr5_~~~"

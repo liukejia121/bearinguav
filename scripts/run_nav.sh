@@ -12,7 +12,7 @@ log_file="${LOG_DIR}/nav_test.log"
 
 nohup python -m naver.runners.nav \
     --uav_2d3d "2d" \
-    --cvphr_2d_best_model_dir "./Bearing-UAV/satellite_view" \
+    --cvphr_2d_best_model_dir "./Bearing_UAV/satellite_view" \
     > "$log_file" 2>&1 &
 
 echo "Started in background"
