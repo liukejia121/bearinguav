@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="./source/illustration/bearing_logo.png" width="200" alt="Bearing-UAV overview." style="border-radius:1px">
+  <img src="./source/illustration/bearing_logo_trans.png" width="200" alt="Bearing-UAV overview." style="border-radius:1px">
 </div>
 
 
