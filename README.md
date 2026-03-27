@@ -6,6 +6,21 @@
   <img src="./source/illustration/bearing_logo_trans.png" width="200" alt="Bearing-UAV overview." style="border-radius:1px">
 </div>
 
+<div align="center">
+  <h1><font color="#0066CC">🚁 Bearing-UAV 🧭</font></h1>
+  <p>✨ 基于 Bearing 算法的无人机智能导航与定位系统 ✨</p>
+
+  <!-- 论文arXiv徽章 -->
+  [![arXiv](https://img.shields.io/badge/arXiv-2401.xxxxxx-007EC6?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.22153)
+  <!-- 数据集徽章 -->
+  [![Dataset](https://img.shields.io/badge/😀-Dataset-Aerial_UAV-2E7D32?style=for-the-badge&logo=kaggle&logoColor=white)](https://huggingface.co/datasets/HaoyZhou/bearinguav/tree/main)
+  <!-- 模型徽章 -->
+  [![Model](https://img.shields.io/badge/🚀-Model-UAV_Navigation-FF6A00?style=for-the-badge&logo=pytorch&logoColor=white)](https://huggingface.co/HaoyZhou/bearinguav/tree/main)
+  <!-- Colab徽章 -->
+  [![Open in Colab](https://img.shields.io/badge/Open_in_Colab-007EC6?style=for-the-badge&logo=googlecolab&logoColor=white)](你的Colab链接)
+  <!-- GitHub徽章 -->
+  [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/liukejia121/bearinguav)
+</div>
 
 [![BearingUAV arXiv](https://img.shields.io/badge/📚-BearingUAV-arXiv-66D9E8?style=flat-square)](https://arxiv.org/abs/2603.22153)
 [![HuggingFace Dataset](https://img.shields.io/badge/😀-HuggingFace-Dataset-28a745?style=flat-square)](https://huggingface.co/datasets/HaoyZhou/bearinguav/tree/main)
