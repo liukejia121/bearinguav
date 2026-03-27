@@ -7,17 +7,11 @@
 </div>
 
 
-[![BearingUAV arXiv](https://img.shields.io/badge/-BearingUAV-arXiv-007EC6?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.22153)
-[![HuggingFace Space](https://img.shields.io/badge/-HuggingFace_Space-66D9E8?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/datasets/HaoyZhou/bearinguav/tree/main)
-[![BearingUAV: BestModel](https://img.shields.io/badge/🚁:_BestModel-FF6A00?style=for-the-badge&logo=modelscope&logoColor=white)](https://huggingface.co/HaoyZhou/bearinguav/tree/main)
-[![OpenReview](https://img.shields.io/badge/OpenReview-gray?style=flat-square)](https://openreview.net)
-[![LiteCoST](https://img.shields.io/badge/LiteCoST-28a745?style=flat-square)](https://github.com/hkustdial/litecost)
-[![Model](https://img.shields.io/badge/🚁-Model-f97316?style=flat-square)](https://huggingface.co/HaoyZhou/bearinguav/tree/main)
-[![Python](https://img.shields.io/badge/Python-gray?style=flat-square)](https://www.python.org)
-[![3.11.10](https://img.shields.io/badge/3.11.10-007ec6?style=flat-square)]
+[![BearingUAV arXiv](https://img.shields.io/badge/📚-BearingUAV-arXiv-66D9E8?style=flat-square)](https://arxiv.org/abs/2603.22153)
+[![HuggingFace Dataset](https://img.shields.io/badge/😀-HuggingFace-Dataset-28a745?style=flat-square)](https://huggingface.co/datasets/HaoyZhou/bearinguav/tree/main)
+[![Model](https://img.shields.io/badge/🚀-Model-f97316?style=flat-square)](https://huggingface.co/HaoyZhou/bearinguav/tree/main)
 
-🐍🌟🚀😀
-Download BearingUAV source code, dataset (https://huggingface.co/datasets/HaoyZhou/bearinguav/tree/main) and weights (https://huggingface.co/HaoyZhou/bearinguav/tree/main) from GitHub & Hugging Face, extract to appropriate locations.
+
 
 # Introduction
 
