@@ -9,8 +9,8 @@
 <div align="center">
 
   [![arXiv](https://img.shields.io/badge/arXiv-2603.22153-007EC6?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.22153)
-  [![Dataset](https://img.shields.io/badge/😀-Dataset-Aerial_UAV-66D9E8?style=for-the-badge&logo=huggingface&logoColor=yellow)](https://huggingface.co/datasets/HaoyZhou/bearinguav/tree/main)
-  [![Model](https://img.shields.io/badge/🚀-Model-UAV_Navigation-FF6A00?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/HaoyZhou/bearinguav/tree/main)
+  [![Dataset](https://img.shields.io/badge/Dataset-Aerial_UAV-66D9E8?style=for-the-badge&logo=huggingface&logoColor=yellow)](https://huggingface.co/datasets/HaoyZhou/bearinguav/tree/main)
+  [![Model](https://img.shields.io/badge/Model-UAV_Navigation-FF6A00?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/HaoyZhou/bearinguav/tree/main)
   [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/liukejia121/bearinguav)
 </div>
 
