@@ -9,7 +9,7 @@
 <div align="center">
 
 [![arXiv](https://img.shields.io/badge/arXiv-2603.22153-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.22153)
-[![Dataset](https://img.shields.io/badge/Dataset-Bearing%20UAV-90K-ffd21e?style=flat&logo=huggingface&logoColor=white)](https://huggingface.co/datasets/HaoyZhou/bearinguav/tree/main)
+[![Dataset](https://img.shields.io/badge/Dataset-Bearing%20UAV90K-ffd21e?style=flat&logo=huggingface&logoColor=green)](https://huggingface.co/datasets/HaoyZhou/bearinguav/tree/main)
 [![Model](https://img.shields.io/badge/Model-Bearing%20UAV-ff6a00?style=flat&logo=huggingface&logoColor=white)](https://huggingface.co/HaoyZhou/bearinguav/tree/main)
 [![GitHub](https://img.shields.io/badge/GitHub-Repo-007EC6?style=flat&logo=github&logoColor=white)](https://github.com/liukejia121/bearinguav)
 
