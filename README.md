@@ -7,6 +7,28 @@
 </div>
 
 
+[![BearingUAV arXiv](https://img.shields.io/badge/-BearingUAV-arXiv-007EC6?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.22153)
+
+[![HuggingFace Space](https://img.shields.io/badge/-HuggingFace_Space-66D9E8?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/datasets/HaoyZhou/bearinguav/tree/main)
+
+[![BearingUAV: BestModel](https://img.shields.io/badge/🚁:_BestModel-FF6A00?style=for-the-badge&logo=modelscope&logoColor=white)](https://huggingface.co/HaoyZhou/bearinguav/tree/main)
+
+
+
+<!-- 1. OpenReview + LiteCoST 双色块标签 -->
+[![OpenReview](https://img.shields.io/badge/OpenReview-gray?style=flat-square)](https://openreview.net)
+[![LiteCoST](https://img.shields.io/badge/LiteCoST-28a745?style=flat-square)](https://github.com/hkustdial/litecost)
+
+<!-- 2. 带表情的Model标签 -->
+[![Model](https://img.shields.io/badge/😀-Model-f97316?style=flat-square)](你的模型链接)
+
+<!-- 3. Python + 版本双色块标签 -->
+[![Python](https://img.shields.io/badge/Python-gray?style=flat-square)](https://www.python.org)
+[![3.11.10](https://img.shields.io/badge/3.11.10-007ec6?style=flat-square)]
+
+🐍🌟🚀
+Download BearingUAV source code, dataset (https://huggingface.co/datasets/HaoyZhou/bearinguav/tree/main) and weights (https://huggingface.co/HaoyZhou/bearinguav/tree/main) from GitHub & Hugging Face, extract to appropriate locations.
+
 # Introduction
 
 We present Bearing-UAV and its navigation scheme Bearing-Naver. 
