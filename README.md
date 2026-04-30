@@ -98,7 +98,7 @@ The project follows a structured layout for vision-driven UAV navigation researc
     │       ├── nav.py                       # Main Navigation Runner.
     │       └── visnav.py                    # Visualization Tools.
     │
-    ├── <sceneGraphEncodingNet>/             # [Scene Graph Encoding Network]
+    ├── <cvphr/sceneGraphEncodingNet>/       # [Scene Graph Encoding Network]
     │   ├── nets.py                          # Network Definitions.
     │   └── non_local_dot_product.py         # Non-Local Dot Product.
     │
@@ -148,6 +148,25 @@ The project follows a structured layout for vision-driven UAV navigation researc
 ## 📍log，loc2traj，results
     Function: Process Logs and Results.
 
+
+# 🛠️Virtual Environment Setup
+
+## 🔨Create environment
+```bash
+conda create -n bearing_env python=3.9 -y
+conda activate bearing_env
+```
+
+## 🔨Install PyTorch
+```bash
+pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 \
+--index-url https://download.pytorch.org/whl/cu118
+```
+
+## 🔨Install other dependencies
+```bash
+pip install -r requirements.txt
+```
 
 
 # 🛠️Usage

@@ -8,6 +8,7 @@ _legacy/
 .venv/
 venv/
 .env
+envset.md
 
 # Jupyter
 .ipynb_checkpoints/

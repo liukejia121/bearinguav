@@ -3,7 +3,7 @@ import torch
 from torch import nn
 import torch.nn.functional as F
 import numpy as np
-from sceneGraphEncodingNet.non_local_dot_product import NONLocalBlock2D, NONLocalBlock2D_soft
+from .non_local_dot_product import NONLocalBlock2D, NONLocalBlock2D_soft
 
 
 class CSMG(nn.Module):

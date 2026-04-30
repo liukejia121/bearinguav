@@ -16,8 +16,8 @@ from importlib import import_module
 from typing import Literal, Tuple, List, Dict
 
 
-from sceneGraphEncodingNet.nets import CSMG, JointNet
-from sceneGraphEncodingNet.nets import CSMG_soft, JointNet_soft  #for phr5
+from cvphr.sceneGraphEncodingNet.nets import CSMG, JointNet
+from cvphr.sceneGraphEncodingNet.nets import CSMG_soft, JointNet_soft  #for phr5
 
 from cvphr.utils.utils_transform import transform_pipeline3
 from cvphr.utils.utils_transform import transform_pipeline1_gentle
