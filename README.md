@@ -149,21 +149,21 @@ The project follows a structured layout for vision-driven UAV navigation researc
     Function: Process Logs and Results.
 
 
-# 🛠️Virtual Environment Setup
+# ⚙️Virtual Environment Setup
 
-## 🔨Create environment
+## 📦Create environment
 ```bash
 conda create -n bearing_env python=3.9 -y
 conda activate bearing_env
 ```
 
-## 🔨Install PyTorch
+## 📦Install PyTorch
 ```bash
 pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 \
 --index-url https://download.pytorch.org/whl/cu118
 ```
 
-## 🔨Install other dependencies
+## 📦Install other dependencies
 ```bash
 pip install -r requirements.txt
 ```
