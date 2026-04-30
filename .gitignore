@@ -34,7 +34,6 @@ Bearing_UAV_paper/
 Bearing_UAV/
 dataset_visual/
 check_2traj
-loc2traj/*_timestamp*/
 results/
 datasets/
 data/
@@ -64,6 +63,12 @@ config/path_modify_.py
 results/history/dataset_history.json
 nohup.out
 CONTRIBUTING.md
+
+# ignore all contents in loc2traj
+loc2traj/*
+# except：traj_wps_gcs
+!loc2traj/traj_wps_gcs/
+!loc2traj/traj_wps_gcs/**
 
 #temp documents
 _docs
