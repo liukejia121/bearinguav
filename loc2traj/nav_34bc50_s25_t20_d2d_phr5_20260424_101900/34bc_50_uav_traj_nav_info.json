@@ -1,0 +1,4717 @@
+[
+    {
+        "uav_frame_id": 0,
+        "waypoint_index": 1,
+        "target_waypoint": [
+            139.69338983017903,
+            35.6674787027027
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.6918483683328,
+            35.667884108108105
+        ],
+        "cur_point_name": [
+            139.6918483683328,
+            35.667884108108105
+        ],
+        "fly_angle_ccs": 90.0,
+        "start_xy": [
+            1536,
+            3072
+        ],
+        "block_cnt_xy": [
+            1791,
+            3328
+        ],
+        "nextpt_real_xy": [
+            1669,
+            3393
+        ],
+        "rpch_in_blk_xy": [
+            133,
+            321
+        ],
+        "pixel_xy": [
+            133.00000000459605,
+            320.9999999996851
+        ],
+        "relative_xy": [
+            -122.99999999540395,
+            -64.99999999968509
+        ],
+        "norm_xy": [
+            -0.4804687499820467,
+            0.2539062499987699
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            6,
+            12
+        ],
+        "block_center": [
+            139.69218937518008,
+            35.6680305045045
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_6_12_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_6_12_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_6_12_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_6_12_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_000_139.6918483683328_35.667884108108105_90.0_64.jpg"
+        ],
+        "pos_pred": [
+            -0.637491762638092,
+            0.44761356711387634
+        ],
+        "dir_pred": [
+            0.807633638381958,
+            0.2853325605392456
+        ],
+        "cur_point_pred": [
+            139.6917369231608,
+            35.66777242100635
+        ],
+        "cur_angle_pred": 19.45803677419698,
+        "cur_direct_pred": [
+            0.9428857172120968,
+            0.33311638248130293
+        ],
+        "fly_angle_ccs2": 90.0,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 347.6620417847277,
+        "ref_angle_ccs": 347.6620417847277,
+        "ref_angle_llcs": 349.9238318793025,
+        "fly_direct_ccs": [
+            0.976904228289019,
+            -0.21367762810139088
+        ],
+        "ref_direct_ccs": [
+            0.9769042282890189,
+            -0.21367762810139124
+        ],
+        "ref_direct_llcs": [
+            0.984576037678796,
+            -0.17495721199402492
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.00022111391431880976,
+            -3.929150466987624e-05
+        ],
+        "next_point_real": [
+            139.69206948224712,
+            35.667844816603434
+        ],
+        "next_point_name": [
+            139.6919580370751,
+            35.66773312950168
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 146.36463771265605,
+        "reached_wp": false,
+        "distance_ep": 402.46549126409445,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 1,
+        "waypoint_index": 1,
+        "target_waypoint": [
+            139.69338983017903,
+            35.6674787027027
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69206948224712,
+            35.667844816603434
+        ],
+        "cur_point_name": [
+            139.6919580370751,
+            35.66773312950168
+        ],
+        "fly_angle_ccs": 347.6620417847277,
+        "start_xy": [
+            1536,
+            3328
+        ],
+        "block_cnt_xy": [
+            1791,
+            3583
+        ],
+        "nextpt_real_xy": [
+            1748,
+            3410
+        ],
+        "rpch_in_blk_xy": [
+            212,
+            82
+        ],
+        "pixel_xy": [
+            212.7550303710408,
+            82.4454280761413
+        ],
+        "relative_xy": [
+            -43.24496962895922,
+            173.5545719238587
+        ],
+        "norm_xy": [
+            -0.16892566261312195,
+            -0.6779475465775731
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            6,
+            13
+        ],
+        "block_center": [
+            139.69218937518008,
+            35.66745392792793
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_6_13_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_6_13_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_6_13_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_6_13_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_001_139.69206948224712_35.667844816603434_347.6620417847277_64.jpg"
+        ],
+        "pos_pred": [
+            -0.27500492334365845,
+            -0.8433731198310852
+        ],
+        "dir_pred": [
+            0.9274753332138062,
+            -0.33631235361099243
+        ],
+        "cur_point_pred": [
+            139.69199419378296,
+            35.66794019711414
+        ],
+        "cur_angle_pred": 340.0688204489948,
+        "cur_direct_pred": [
+            0.9401027580658234,
+            -0.34089119125760925
+        ],
+        "fly_angle_ccs2": 347.6620417847277,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 337.8525986332838,
+        "ref_angle_ccs": 337.8525986332838,
+        "ref_angle_llcs": 341.7025237214832,
+        "fly_direct_ccs": [
+            0.9262170597652271,
+            -0.37699066062683534
+        ],
+        "ref_direct_ccs": [
+            0.9262170597652272,
+            -0.3769906606268353
+        ],
+        "ref_direct_llcs": [
+            0.9494393072248625,
+            -0.313950636082129
+        ],
+        "ref_direct_llcs_length": 1.0000000000000002,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.0002132229849139558,
+            -7.05063411970286e-05
+        ],
+        "next_point_real": [
+            139.69228270523203,
+            35.66777431026224
+        ],
+        "next_point_name": [
+            139.69220741676787,
+            35.667869690772946
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 126.03124317281122,
+        "reached_wp": false,
+        "distance_ep": 383.79000698508077,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 2,
+        "waypoint_index": 1,
+        "target_waypoint": [
+            139.69338983017903,
+            35.6674787027027
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69228270523203,
+            35.66777431026224
+        ],
+        "cur_point_name": [
+            139.69220741676787,
+            35.667869690772946
+        ],
+        "fly_angle_ccs": 337.8525986332838,
+        "start_xy": [
+            1536,
+            3072
+        ],
+        "block_cnt_xy": [
+            1791,
+            3328
+        ],
+        "nextpt_real_xy": [
+            1825,
+            3441
+        ],
+        "rpch_in_blk_xy": [
+            289,
+            369
+        ],
+        "pixel_xy": [
+            289.66382957388106,
+            369.7502435641693
+        ],
+        "relative_xy": [
+            33.66382957388108,
+            -113.7502435641693
+        ],
+        "norm_xy": [
+            0.13149933427297297,
+            0.4443368889225363
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            6,
+            12
+        ],
+        "block_center": [
+            139.69218937518008,
+            35.6680305045045
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_6_12_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_6_12_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_6_12_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_6_12_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_002_139.69228270523203_35.66777431026224_337.8525986332838_64.jpg"
+        ],
+        "pos_pred": [
+            0.3913501501083374,
+            0.33014440536499023
+        ],
+        "dir_pred": [
+            0.9005575180053711,
+            -0.39010536670684814
+        ],
+        "cur_point_pred": [
+            139.6924671311858,
+            35.66784015097348
+        ],
+        "cur_angle_pred": 336.57860436927706,
+        "cur_direct_pred": [
+            0.9176062570649911,
+            -0.3974905747249581
+        ],
+        "fly_angle_ccs2": 337.8525986332838,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 334.2574972831642,
+        "ref_angle_ccs": 334.2574972831642,
+        "ref_angle_llcs": 338.60826374451165,
+        "fly_direct_ccs": [
+            0.900755079762207,
+            -0.4343273952706414
+        ],
+        "ref_direct_ccs": [
+            0.9007550797622071,
+            -0.43432739527064124
+        ],
+        "ref_direct_llcs": [
+            0.9311084321928681,
+            -0.3647424947813718
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.00020910627744180472,
+            -8.191306476405222e-05
+        ],
+        "next_point_real": [
+            139.69249181150948,
+            35.66769239719748
+        ],
+        "next_point_name": [
+            139.69267623746325,
+            35.66775823790872
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 92.53687490703072,
+        "reached_wp": false,
+        "distance_ep": 366.82934775932205,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 3,
+        "waypoint_index": 1,
+        "target_waypoint": [
+            139.69338983017903,
+            35.6674787027027
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69249181150948,
+            35.66769239719748
+        ],
+        "cur_point_name": [
+            139.69267623746325,
+            35.66775823790872
+        ],
+        "fly_angle_ccs": 334.2574972831642,
+        "start_xy": [
+            1792,
+            3072
+        ],
+        "block_cnt_xy": [
+            2048,
+            3328
+        ],
+        "nextpt_real_xy": [
+            1901,
+            3478
+        ],
+        "rpch_in_blk_xy": [
+            109,
+            406
+        ],
+        "pixel_xy": [
+            109.08774651616031,
+            406.11964431820957
+        ],
+        "relative_xy": [
+            -146.9122534838397,
+            -150.11964431820957
+        ],
+        "norm_xy": [
+            -0.5738759901712488,
+            0.5864048606180061
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            7,
+            12
+        ],
+        "block_center": [
+            139.69289911300856,
+            35.6680305045045
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_7_12_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_7_12_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_7_12_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_7_12_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_003_139.69249181150948_35.66769239719748_334.2574972831642_64.jpg"
+        ],
+        "pos_pred": [
+            -0.47845619916915894,
+            0.8442829251289368
+        ],
+        "dir_pred": [
+            0.9133399724960327,
+            -0.3746034502983093
+        ],
+        "cur_point_pred": [
+            139.69255953454476,
+            35.66754371074587
+        ],
+        "cur_angle_pred": 337.6991715102568,
+        "cur_direct_pred": [
+            0.9252042314008636,
+            -0.3794695379051357
+        ],
+        "fly_angle_ccs2": 334.2574972831642,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 354.4951994599177,
+        "ref_angle_ccs": 354.4951994599177,
+        "ref_angle_llcs": 355.52315668541496,
+        "fly_direct_ccs": [
+            0.995388164414916,
+            -0.09592915168343916
+        ],
+        "ref_direct_ccs": [
+            0.995388164414916,
+            -0.09592915168343859
+        ],
+        "ref_direct_llcs": [
+            0.9969489623710732,
+            -0.07805617481814363
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.00022389259844840845,
+            -1.7529683529047705e-05
+        ],
+        "next_point_real": [
+            139.69271570410794,
+            35.667674867513945
+        ],
+        "next_point_name": [
+            139.6927834271432,
+            35.667526181062335
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 75.35338973269262,
+        "reached_wp": false,
+        "distance_ep": 350.99412285352304,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 4,
+        "waypoint_index": 1,
+        "target_waypoint": [
+            139.69338983017903,
+            35.6674787027027
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69271570410794,
+            35.667674867513945
+        ],
+        "cur_point_name": [
+            139.6927834271432,
+            35.667526181062335
+        ],
+        "fly_angle_ccs": 354.4951994599177,
+        "start_xy": [
+            1792,
+            3328
+        ],
+        "block_cnt_xy": [
+            2048,
+            3583
+        ],
+        "nextpt_real_xy": [
+            1981,
+            3485
+        ],
+        "rpch_in_blk_xy": [
+            189,
+            157
+        ],
+        "pixel_xy": [
+            189.8450387228017,
+            157.9028238093938
+        ],
+        "relative_xy": [
+            -66.15496127719831,
+            98.0971761906062
+        ],
+        "norm_xy": [
+            -0.2584178174890559,
+            -0.3831920944945555
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            7,
+            13
+        ],
+        "block_center": [
+            139.69289911300856,
+            35.66745392792793
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_7_13_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_7_13_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_7_13_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_7_13_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_004_139.69271570410794_35.667674867513945_354.4951994599177_64.jpg"
+        ],
+        "pos_pred": [
+            0.02821166068315506,
+            -0.9041706919670105
+        ],
+        "dir_pred": [
+            0.9933717250823975,
+            0.020220167934894562
+        ],
+        "cur_point_pred": [
+            139.69291913589134,
+            35.66797525157015
+        ],
+        "cur_angle_pred": 1.1660995474107883,
+        "cur_direct_pred": [
+            0.9997928995692904,
+            0.020350871500524503
+        ],
+        "fly_angle_ccs2": 354.4951994599177,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 307.60033212279245,
+        "ref_angle_ccs": 307.60033212279245,
+        "ref_angle_llcs": 313.46883833358777,
+        "fly_direct_ccs": [
+            0.6101497565058833,
+            -0.7922861065523056
+        ],
+        "ref_direct_ccs": [
+            0.6101497565058833,
+            -0.7922861065523055
+        ],
+        "ref_direct_llcs": [
+            0.6879599618780196,
+            -0.7257486416472261
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.00015450053042535475,
+            -0.00016298702875656353
+        ],
+        "next_point_real": [
+            139.69287020463835,
+            35.667511880485186
+        ],
+        "next_point_name": [
+            139.69307363642176,
+            35.66781226454139
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 64.68660913298177,
+        "reached_wp": false,
+        "distance_ep": 332.21897113026364,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 5,
+        "waypoint_index": 1,
+        "target_waypoint": [
+            139.69338983017903,
+            35.6674787027027
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69287020463835,
+            35.667511880485186
+        ],
+        "cur_point_name": [
+            139.69307363642176,
+            35.66781226454139
+        ],
+        "fly_angle_ccs": 307.60033212279245,
+        "start_xy": [
+            1792,
+            3072
+        ],
+        "block_cnt_xy": [
+            2048,
+            3328
+        ],
+        "nextpt_real_xy": [
+            2037,
+            3558
+        ],
+        "rpch_in_blk_xy": [
+            245,
+            486
+        ],
+        "pixel_xy": [
+            245.57285003397348,
+            486.26906457542395
+        ],
+        "relative_xy": [
+            -10.427149966026523,
+            -230.26906457542395
+        ],
+        "norm_xy": [
+            -0.040731054554791105,
+            0.8994885334977498
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            7,
+            12
+        ],
+        "block_center": [
+            139.69289911300856,
+            35.6680305045045
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_7_12_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_7_12_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_7_12_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_7_12_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_005_139.69287020463835_35.667511880485186_307.60033212279245_64.jpg"
+        ],
+        "pos_pred": [
+            0.2965971827507019,
+            0.9379114508628845
+        ],
+        "dir_pred": [
+            0.46879842877388,
+            -0.8774075508117676
+        ],
+        "cur_point_pred": [
+            139.693109619249,
+            35.66748972673103
+        ],
+        "cur_angle_pred": 298.1155685314585,
+        "cur_direct_pred": [
+            0.47125155722255513,
+            -0.8819988491009026
+        ],
+        "fly_angle_ccs2": 307.60033212279245,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 357.22755572175964,
+        "ref_angle_ccs": 357.22755572175964,
+        "ref_angle_llcs": 357.7470374814315,
+        "fly_direct_ccs": [
+            0.9988295155420129,
+            -0.04836940026615732
+        ],
+        "ref_direct_ccs": [
+            0.998829515542013,
+            -0.04836940026615769
+        ],
+        "ref_direct_llcs": [
+            0.9992270049486344,
+            -0.03931148154651371
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.0002244041962245406,
+            -8.828485794671602e-06
+        ],
+        "next_point_real": [
+            139.69309460883457,
+            35.66750305199939
+        ],
+        "next_point_name": [
+            139.6933340234452,
+            35.66748089824523
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 25.342903562556437,
+        "reached_wp": false,
+        "distance_ep": 325.12080875726156,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 6,
+        "waypoint_index": 1,
+        "target_waypoint": [
+            139.69338983017903,
+            35.6674787027027
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69309460883457,
+            35.66750305199939
+        ],
+        "cur_point_name": [
+            139.6933340234452,
+            35.66748089824523
+        ],
+        "fly_angle_ccs": 357.22755572175964,
+        "start_xy": [
+            2048,
+            3328
+        ],
+        "block_cnt_xy": [
+            2304,
+            3583
+        ],
+        "nextpt_real_xy": [
+            2118,
+            3562
+        ],
+        "rpch_in_blk_xy": [
+            70,
+            234
+        ],
+        "pixel_xy": [
+            70.51467379564443,
+            234.1889122719747
+        ],
+        "relative_xy": [
+            -185.48532620435557,
+            21.811087728025313
+        ],
+        "norm_xy": [
+            -0.724552055485764,
+            -0.08519956143759888
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            8,
+            13
+        ],
+        "block_center": [
+            139.69360885083705,
+            35.66745392792793
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_8_13_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_8_13_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_8_13_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_8_13_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_006_139.69309460883457_35.66750305199939_357.22755572175964_64.jpg"
+        ],
+        "pos_pred": [
+            -0.9121602177619934,
+            -0.3186212480068207
+        ],
+        "dir_pred": [
+            0.922362208366394,
+            -0.1661437749862671
+        ],
+        "cur_point_pred": [
+            139.69296145622488,
+            35.66763763747633
+        ],
+        "cur_angle_pred": 349.78889174418185,
+        "cur_direct_pred": [
+            0.98416125705556,
+            -0.17727554854186742
+        ],
+        "fly_angle_ccs2": 357.22755572175964,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 335.4544609902233,
+        "ref_angle_ccs": 335.4544609902233,
+        "ref_angle_llcs": 339.6442013429711,
+        "fly_direct_ccs": [
+            0.909631382956809,
+            -0.41541635396320525
+        ],
+        "ref_direct_ccs": [
+            0.9096313829568096,
+            -0.4154163539632044
+        ],
+        "ref_direct_llcs": [
+            0.9375506195861671,
+            -0.3478488690704542
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.00021055304967350144,
+            -7.811913157349402e-05
+        ],
+        "next_point_real": [
+            139.69330516188424,
+            35.66742493286782
+        ],
+        "next_point_name": [
+            139.69317200927455,
+            35.66755951834476
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 26.8063088497032,
+        "reached_wp": false,
+        "distance_ep": 306.7217905436652,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 7,
+        "waypoint_index": 1,
+        "target_waypoint": [
+            139.69338983017903,
+            35.6674787027027
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69330516188424,
+            35.66742493286782
+        ],
+        "cur_point_name": [
+            139.69317200927455,
+            35.66755951834476
+        ],
+        "fly_angle_ccs": 335.4544609902233,
+        "start_xy": [
+            1792,
+            3328
+        ],
+        "block_cnt_xy": [
+            2048,
+            3583
+        ],
+        "nextpt_real_xy": [
+            2194,
+            3596
+        ],
+        "rpch_in_blk_xy": [
+            402,
+            268
+        ],
+        "pixel_xy": [
+            402.46043651841944,
+            268.8738066901235
+        ],
+        "relative_xy": [
+            146.4604365184194,
+            -12.873806690123502
+        ],
+        "norm_xy": [
+            0.5721110801500758,
+            0.05028830738329493
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            7,
+            13
+        ],
+        "block_center": [
+            139.69289911300856,
+            35.66745392792793
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_7_13_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_7_13_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_7_13_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_7_13_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_007_139.69330516188424_35.66742493286782_335.4544609902233_64.jpg"
+        ],
+        "pos_pred": [
+            0.8413521647453308,
+            0.21074531972408295
+        ],
+        "dir_pred": [
+            0.9569398164749146,
+            -0.09935672581195831
+        ],
+        "cur_point_pred": [
+            139.69349625246696,
+            35.66733241711295
+        ],
+        "cur_angle_pred": 354.0723584621963,
+        "cur_direct_pred": [
+            0.9946531105590289,
+            -0.10327240510053072
+        ],
+        "fly_angle_ccs2": 335.4544609902233,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 120.58429236504772,
+        "ref_angle_ccs": 120.58429236504772,
+        "ref_angle_llcs": 126.0357668222102,
+        "fly_direct_ccs": [
+            -0.5088054242423942,
+            0.8608815483337515
+        ],
+        "ref_direct_ccs": [
+            -0.5088054242423939,
+            0.8608815483337516
+        ],
+        "ref_direct_llcs": [
+            -0.5882901656301128,
+            0.8086499125226532
+        ],
+        "ref_direct_llcs_length": 1.0000000000000002,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            -0.00013211690748071164,
+            0.0001816048132686519
+        ],
+        "next_point_real": [
+            139.69317304497676,
+            35.66760653768109
+        ],
+        "next_point_name": [
+            139.69336413555948,
+            35.66751402192622
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 9.70820173634656,
+        "reached_wp": true,
+        "distance_ep": 293.008910480954,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 8,
+        "waypoint_index": 2,
+        "target_waypoint": [
+            139.6939221335504,
+            35.66819041441441
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69317304497676,
+            35.66760653768109
+        ],
+        "cur_point_name": [
+            139.69336413555948,
+            35.66751402192622
+        ],
+        "fly_angle_ccs": 120.58429236504772,
+        "start_xy": [
+            2048,
+            3328
+        ],
+        "block_cnt_xy": [
+            2304,
+            3583
+        ],
+        "nextpt_real_xy": [
+            2146,
+            3516
+        ],
+        "rpch_in_blk_xy": [
+            98,
+            188
+        ],
+        "pixel_xy": [
+            98.80632121066583,
+            188.24126959779596
+        ],
+        "relative_xy": [
+            -157.19367878933417,
+            67.75873040220404
+        ],
+        "norm_xy": [
+            -0.6140378077708366,
+            -0.2646825406336095
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            8,
+            13
+        ],
+        "block_center": [
+            139.69360885083705,
+            35.66745392792793
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_8_13_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_8_13_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_8_13_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_8_13_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_008_139.69317304497676_35.66760653768109_120.58429236504772_64.jpg"
+        ],
+        "pos_pred": [
+            -0.8598414659500122,
+            -0.44153496623039246
+        ],
+        "dir_pred": [
+            -0.7303887605667114,
+            0.6025885939598083
+        ],
+        "cur_point_pred": [
+            139.69299858882218,
+            35.667708506647195
+        ],
+        "cur_angle_pred": 140.47653479457634,
+        "cur_direct_pred": [
+            -0.7713640159690881,
+            0.6363941819878938
+        ],
+        "fly_angle_ccs2": 120.58429236504772,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 32.71206535844412,
+        "ref_angle_ccs": 32.71206535844412,
+        "ref_angle_llcs": 27.555656619420986,
+        "fly_direct_ccs": [
+            0.8413969993570615,
+            0.5404175140323758
+        ],
+        "ref_direct_ccs": [
+            0.8413969993570615,
+            0.5404175140323759
+        ],
+        "ref_direct_llcs": [
+            0.8865618761897012,
+            0.46261002981668803
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.00019910211017555273,
+            0.0001038919398618146
+        ],
+        "next_point_real": [
+            139.69337214708693,
+            35.66771042962095
+        ],
+        "next_point_name": [
+            139.69319769093235,
+            35.66781239858706
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 93.77802022057236,
+        "reached_wp": false,
+        "distance_ep": 295.8091602676599,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 9,
+        "waypoint_index": 2,
+        "target_waypoint": [
+            139.6939221335504,
+            35.66819041441441
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69337214708693,
+            35.66771042962095
+        ],
+        "cur_point_name": [
+            139.69319769093235,
+            35.66781239858706
+        ],
+        "fly_angle_ccs": 32.71206535844412,
+        "start_xy": [
+            1792,
+            3072
+        ],
+        "block_cnt_xy": [
+            2048,
+            3328
+        ],
+        "nextpt_real_xy": [
+            2218,
+            3470
+        ],
+        "rpch_in_blk_xy": [
+            426,
+            398
+        ],
+        "pixel_xy": [
+            426.62176933924957,
+            398.1132482947769
+        ],
+        "relative_xy": [
+            170.62176933924954,
+            -142.1132482947769
+        ],
+        "norm_xy": [
+            0.6664912864814435,
+            0.5551298761514722
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            7,
+            12
+        ],
+        "block_center": [
+            139.69289911300856,
+            35.6680305045045
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_7_12_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_7_12_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_7_12_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_7_12_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_009_139.69337214708693_35.66771042962095_32.71206535844412_64.jpg"
+        ],
+        "pos_pred": [
+            0.9665043950080872,
+            0.6814529895782471
+        ],
+        "dir_pred": [
+            0.8871691226959229,
+            0.4656575918197632
+        ],
+        "cur_point_pred": [
+            139.6935850777391,
+            35.66763759467267
+        ],
+        "cur_angle_pred": 27.69409594133587,
+        "cur_direct_pred": [
+            0.8854415208244498,
+            0.46475080763790527
+        ],
+        "fly_angle_ccs2": 32.71206535844412,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 63.64942874019722,
+        "ref_angle_ccs": 63.64942874019722,
+        "ref_angle_llcs": 58.62921592939807,
+        "fly_direct_ccs": [
+            0.4438622884272698,
+            0.8960950110965394
+        ],
+        "ref_direct_ccs": [
+            0.4438622884272698,
+            0.8960950110965393
+        ],
+        "ref_direct_llcs": [
+            0.5205743264854031,
+            0.8538163564867265
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.00011690943372381494,
+            0.00019174819360553503
+        ],
+        "next_point_real": [
+            139.69348905652066,
+            35.66790217781456
+        ],
+        "next_point_name": [
+            139.69370198717283,
+            35.66782934286628
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 68.59845714516013,
+        "reached_wp": false,
+        "distance_ep": 274.874675771256,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 10,
+        "waypoint_index": 2,
+        "target_waypoint": [
+            139.6939221335504,
+            35.66819041441441
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69348905652066,
+            35.66790217781456
+        ],
+        "cur_point_name": [
+            139.69370198717283,
+            35.66782934286628
+        ],
+        "fly_angle_ccs": 63.64942874019722,
+        "start_xy": [
+            2048,
+            3072
+        ],
+        "block_cnt_xy": [
+            2304,
+            3328
+        ],
+        "nextpt_real_xy": [
+            2260,
+            3384
+        ],
+        "rpch_in_blk_xy": [
+            212,
+            312
+        ],
+        "pixel_xy": [
+            212.79060102858537,
+            312.9770503330176
+        ],
+        "relative_xy": [
+            -43.20939897141462,
+            -56.97705033301759
+        ],
+        "norm_xy": [
+            -0.16878671473208837,
+            0.22256660286334995
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            8,
+            12
+        ],
+        "block_center": [
+            139.69360885083705,
+            35.6680305045045
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_8_12_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_8_12_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_8_12_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_8_12_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_010_139.69348905652066_35.66790217781456_63.64942874019722_64.jpg"
+        ],
+        "pos_pred": [
+            -0.26291853189468384,
+            0.31501129269599915
+        ],
+        "dir_pred": [
+            0.6219460964202881,
+            0.781618058681488
+        ],
+        "cur_point_pred": [
+            139.69342224760916,
+            35.66784887637178
+        ],
+        "cur_angle_pred": 51.490168039125,
+        "cur_direct_pred": [
+            0.6226489231010152,
+            0.7825013217631944
+        ],
+        "fly_angle_ccs2": 63.64942874019722,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 40.06359799759395,
+        "ref_angle_ccs": 40.06359799759395,
+        "ref_angle_llcs": 34.34213709791822,
+        "fly_direct_ccs": [
+            0.7653304806656372,
+            0.6436375186112946
+        ],
+        "ref_direct_ccs": [
+            0.7653304806656372,
+            0.6436375186112946
+        ],
+        "ref_direct_llcs": [
+            0.8256836365520832,
+            0.5641334348628231
+        ],
+        "ref_direct_llcs_length": 0.9999999999999999,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.00018543020943048938,
+            0.00012669184218083523
+        ],
+        "next_point_real": [
+            139.6936744867301,
+            35.668028869656744
+        ],
+        "next_point_name": [
+            139.6936076778186,
+            35.66797556821396
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 50.57458107063086,
+        "reached_wp": false,
+        "distance_ep": 257.99957123255746,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 11,
+        "waypoint_index": 2,
+        "target_waypoint": [
+            139.6939221335504,
+            35.66819041441441
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.6936744867301,
+            35.668028869656744
+        ],
+        "cur_point_name": [
+            139.6936076778186,
+            35.66797556821396
+        ],
+        "fly_angle_ccs": 40.06359799759395,
+        "start_xy": [
+            2048,
+            3072
+        ],
+        "block_cnt_xy": [
+            2304,
+            3328
+        ],
+        "nextpt_real_xy": [
+            2327,
+            3328
+        ],
+        "rpch_in_blk_xy": [
+            279,
+            256
+        ],
+        "pixel_xy": [
+            279.6746414566716,
+            256.7258724035921
+        ],
+        "relative_xy": [
+            23.6746414566716,
+            -0.7258724035921205
+        ],
+        "norm_xy": [
+            0.09247906819012344,
+            0.0028354390765317206
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            8,
+            12
+        ],
+        "block_center": [
+            139.69360885083705,
+            35.6680305045045
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_8_12_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_8_12_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_8_12_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_8_12_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_011_139.6936744867301_35.668028869656744_40.06359799759395_64.jpg"
+        ],
+        "pos_pred": [
+            0.049335114657878876,
+            -0.07153594493865967
+        ],
+        "dir_pred": [
+            0.8424640893936157,
+            0.4895893335342407
+        ],
+        "cur_point_pred": [
+            139.6936438658342,
+            35.668071750454736
+        ],
+        "cur_angle_pred": 30.16257187068165,
+        "cur_direct_pred": [
+            0.8646032123323018,
+            0.5024552569380331
+        ],
+        "fly_angle_ccs2": 40.06359799759395,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 27.695220706748614,
+        "ref_angle_ccs": 27.695220706748614,
+        "ref_angle_llcs": 23.09524752253444,
+        "fly_direct_ccs": [
+            0.8854323971959085,
+            0.4647681895266789
+        ],
+        "ref_direct_ccs": [
+            0.8854323971959085,
+            0.4647681895266789
+        ],
+        "ref_direct_llcs": [
+            0.9198540371007944,
+            0.39226081939109136
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.00020657879022206125,
+            8.809306939253759e-05
+        ],
+        "next_point_real": [
+            139.69388106552032,
+            35.66811696272614
+        ],
+        "next_point_name": [
+            139.69385044462442,
+            35.66815984352413
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 28.39008872966493,
+        "reached_wp": false,
+        "distance_ep": 238.0181948115589,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 12,
+        "waypoint_index": 2,
+        "target_waypoint": [
+            139.6939221335504,
+            35.66819041441441
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69388106552032,
+            35.66811696272614
+        ],
+        "cur_point_name": [
+            139.69385044462442,
+            35.66815984352413
+        ],
+        "fly_angle_ccs": 27.695220706748614,
+        "start_xy": [
+            2048,
+            3072
+        ],
+        "block_cnt_xy": [
+            2304,
+            3328
+        ],
+        "nextpt_real_xy": [
+            2402,
+            3289
+        ],
+        "rpch_in_blk_xy": [
+            354,
+            217
+        ],
+        "pixel_xy": [
+            354.1869024296112,
+            217.61254959272924
+        ],
+        "relative_xy": [
+            98.18690242961125,
+            38.38745040727076
+        ],
+        "norm_xy": [
+            0.38354258761566895,
+            -0.14995097815340142
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            8,
+            12
+        ],
+        "block_center": [
+            139.69360885083705,
+            35.6680305045045
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_8_12_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_8_12_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_8_12_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_8_12_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_012_139.69388106552032_35.66811696272614_27.695220706748614_64.jpg"
+        ],
+        "pos_pred": [
+            0.27645331621170044,
+            -0.3782781660556793
+        ],
+        "dir_pred": [
+            0.9254336357116699,
+            0.16655181348323822
+        ],
+        "cur_point_pred": [
+            139.69380506021338,
+            35.66824861083448
+        ],
+        "cur_angle_pred": 10.202400061492341,
+        "cur_direct_pred": [
+            0.9841881892074551,
+            0.17712596710971154
+        ],
+        "fly_angle_ccs2": 27.695220706748614,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 328.5384879684124,
+        "ref_angle_ccs": 328.5384879684124,
+        "ref_angle_llcs": 333.5683178980348,
+        "fly_direct_ccs": [
+            0.852990956067617,
+            -0.5219256928594842
+        ],
+        "ref_direct_ccs": [
+            0.8529909560676174,
+            -0.5219256928594835
+        ],
+        "ref_direct_llcs": [
+            0.8954657591831154,
+            -0.44513040126529974
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.00020110172457400184,
+            -9.996640344621356e-05
+        ],
+        "next_point_real": [
+            139.6940821672449,
+            35.66801699632269
+        ],
+        "next_point_name": [
+            139.69400616193795,
+            35.668148644431035
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 8.970547632562182,
+        "reached_wp": true,
+        "distance_ep": 217.51358362196748,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 13,
+        "waypoint_index": 3,
+        "target_waypoint": [
+            139.6944793886423,
+            35.66762284684685
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.6940821672449,
+            35.66801699632269
+        ],
+        "cur_point_name": [
+            139.69400616193795,
+            35.668148644431035
+        ],
+        "fly_angle_ccs": 328.5384879684124,
+        "start_xy": [
+            2304,
+            3072
+        ],
+        "block_cnt_xy": [
+            2560,
+            3328
+        ],
+        "nextpt_real_xy": [
+            2474,
+            3333
+        ],
+        "rpch_in_blk_xy": [
+            170,
+            261
+        ],
+        "pixel_xy": [
+            170.72360460676447,
+            261.99763272305154
+        ],
+        "relative_xy": [
+            -85.27639539323555,
+            -5.997632723051538
+        ],
+        "norm_xy": [
+            -0.33311091950482635,
+            0.02342825282442007
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            9,
+            12
+        ],
+        "block_center": [
+            139.69431858866554,
+            35.6680305045045
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_12_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_12_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_12_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_12_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_013_139.6940821672449_35.66801699632269_328.5384879684124_64.jpg"
+        ],
+        "pos_pred": [
+            -0.25894635915756226,
+            0.048635732382535934
+        ],
+        "dir_pred": [
+            0.893756628036499,
+            -0.28202271461486816
+        ],
+        "cur_point_pred": [
+            139.6941348046389,
+            35.66800246228043
+        ],
+        "cur_angle_pred": 342.4870367523296,
+        "cur_direct_pred": [
+            0.9536488912444037,
+            -0.30092157155697485
+        ],
+        "fly_angle_ccs2": 328.5384879684124,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 306.40646242286306,
+        "ref_angle_ccs": 306.40646242286306,
+        "ref_angle_llcs": 312.2306112483629,
+        "fly_direct_ccs": [
+            0.5935096672482785,
+            -0.8048268601897166
+        ],
+        "ref_direct_ccs": [
+            0.5935096672482787,
+            -0.8048268601897166
+        ],
+        "ref_direct_llcs": [
+            0.6721162809384028,
+            -0.7404456123831986
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.00015094239151509226,
+            -0.00016628764201922355
+        ],
+        "next_point_real": [
+            139.6942331096364,
+            35.667850708680675
+        ],
+        "next_point_name": [
+            139.69428574703042,
+            35.66783617463841
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 52.44776853186243,
+        "reached_wp": false,
+        "distance_ep": 203.05726231457817,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 14,
+        "waypoint_index": 3,
+        "target_waypoint": [
+            139.6944793886423,
+            35.66762284684685
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.6942331096364,
+            35.667850708680675
+        ],
+        "cur_point_name": [
+            139.69428574703042,
+            35.66783617463841
+        ],
+        "fly_angle_ccs": 306.40646242286306,
+        "start_xy": [
+            2304,
+            3072
+        ],
+        "block_cnt_xy": [
+            2560,
+            3328
+        ],
+        "nextpt_real_xy": [
+            2529,
+            3407
+        ],
+        "rpch_in_blk_xy": [
+            225,
+            335
+        ],
+        "pixel_xy": [
+            225.16800742280054,
+            335.8293457785917
+        ],
+        "relative_xy": [
+            -30.83199257719946,
+            -79.82934577859169
+        ],
+        "norm_xy": [
+            -0.1204374710046854,
+            0.3118333819476238
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            9,
+            12
+        ],
+        "block_center": [
+            139.69431858866554,
+            35.6680305045045
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_12_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_12_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_12_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_12_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_014_139.6942331096364_35.667850708680675_306.40646242286306_64.jpg"
+        ],
+        "pos_pred": [
+            0.10203541815280914,
+            0.5046237707138062
+        ],
+        "dir_pred": [
+            0.3812396228313446,
+            0.012404274195432663
+        ],
+        "cur_point_pred": [
+            139.69439100706165,
+            35.667739550258325
+        ],
+        "cur_angle_pred": 1.8635574076168528,
+        "cur_direct_pred": [
+            0.9994711019026472,
+            0.03251947818628559
+        ],
+        "fly_angle_ccs2": 306.40646242286306,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 301.60204735803643,
+        "ref_angle_ccs": 301.60204735803643,
+        "ref_angle_llcs": 307.13729810728887,
+        "fly_direct_ccs": [
+            0.5240163405122193,
+            -0.8517082099382287
+        ],
+        "ref_direct_ccs": [
+            0.5240163405122197,
+            -0.8517082099382285
+        ],
+        "ref_direct_llcs": [
+            0.6037270669186151,
+            -0.7971910866723524
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.00013558369271438536,
+            -0.0001790314154402516
+        ],
+        "next_point_real": [
+            139.69436869332912,
+            35.66767167726523
+        ],
+        "next_point_name": [
+            139.69452659075438,
+            35.66756051884288
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 15.236244107892215,
+        "reached_wp": true,
+        "distance_ep": 196.99672551629976,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 15,
+        "waypoint_index": 4,
+        "target_waypoint": [
+            139.6944378024414,
+            35.66733455855856
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69436869332912,
+            35.66767167726523
+        ],
+        "cur_point_name": [
+            139.69452659075438,
+            35.66756051884288
+        ],
+        "fly_angle_ccs": 301.60204735803643,
+        "start_xy": [
+            2304,
+            3328
+        ],
+        "block_cnt_xy": [
+            2560,
+            3583
+        ],
+        "nextpt_real_xy": [
+            2578,
+            3487
+        ],
+        "rpch_in_blk_xy": [
+            274,
+            159
+        ],
+        "pixel_xy": [
+            274.0725802730868,
+            159.31929423766155
+        ],
+        "relative_xy": [
+            18.07258027308682,
+            96.68070576233845
+        ],
+        "norm_xy": [
+            0.0705960166917454,
+            -0.37765900688413456
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            9,
+            13
+        ],
+        "block_center": [
+            139.69431858866554,
+            35.66745392792793
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_13_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_13_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_13_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_13_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_015_139.69436869332912_35.66767167726523_301.60204735803643_64.jpg"
+        ],
+        "pos_pred": [
+            0.6584736704826355,
+            -0.34288546442985535
+        ],
+        "dir_pred": [
+            0.09843210875988007,
+            -0.6532577276229858
+        ],
+        "cur_point_pred": [
+            139.69478593233853,
+            35.66765162765517
+        ],
+        "cur_angle_pred": 278.56879993670367,
+        "cur_direct_pred": [
+            0.14899690011160413,
+            -0.9888376629948582
+        ],
+        "fly_angle_ccs2": 301.60204735803643,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 228.26704903462223,
+        "ref_angle_ccs": 228.26704903462223,
+        "ref_angle_llcs": 222.3265728381419,
+        "fly_direct_ccs": [
+            -0.665659638357719,
+            -0.7462554829691175
+        ],
+        "ref_direct_ccs": [
+            -0.6656596383577188,
+            -0.7462554829691177
+        ],
+        "ref_direct_llcs": [
+            -0.7393188833336509,
+            -0.6733554698272551
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            -0.00016603460369512464,
+            -0.00015122068582178744
+        ],
+        "next_point_real": [
+            139.69420265872543,
+            35.66752045657941
+        ],
+        "next_point_name": [
+            139.69461989773484,
+            35.667500406969346
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 38.00220788023591,
+        "reached_wp": false,
+        "distance_ep": 195.41059920196557,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 16,
+        "waypoint_index": 4,
+        "target_waypoint": [
+            139.6944378024414,
+            35.66733455855856
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69420265872543,
+            35.66752045657941
+        ],
+        "cur_point_name": [
+            139.69461989773484,
+            35.667500406969346
+        ],
+        "fly_angle_ccs": 228.26704903462223,
+        "start_xy": [
+            2304,
+            3328
+        ],
+        "block_cnt_xy": [
+            2560,
+            3583
+        ],
+        "nextpt_real_xy": [
+            2518,
+            3554
+        ],
+        "rpch_in_blk_xy": [
+            214,
+            226
+        ],
+        "pixel_xy": [
+            214.18446829691413,
+            226.46127874276067
+        ],
+        "relative_xy": [
+            -41.81553170308587,
+            29.53872125723933
+        ],
+        "norm_xy": [
+            -0.16334192071517917,
+            -0.11538562991109114
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            9,
+            13
+        ],
+        "block_center": [
+            139.69431858866554,
+            35.66745392792793
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_13_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_13_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_13_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_13_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_016_139.69420265872543_35.66752045657941_228.26704903462223_64.jpg"
+        ],
+        "pos_pred": [
+            0.1601240336894989,
+            -0.27322736382484436
+        ],
+        "dir_pred": [
+            -0.7957607507705688,
+            -0.602530300617218
+        ],
+        "cur_point_pred": [
+            139.69443223474948,
+            35.66761146442599
+        ],
+        "cur_angle_pred": 217.132102075652,
+        "cur_direct_pred": [
+            -0.7972458341098967,
+            -0.6036547688823597
+        ],
+        "fly_angle_ccs2": 228.26704903462223,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 270.9358465775015,
+        "ref_angle_ccs": 270.9358465775015,
+        "ref_angle_llcs": 271.1518797784842,
+        "fly_direct_ccs": [
+            0.01633287781609936,
+            -0.99986660965463
+        ],
+        "ref_direct_ccs": [
+            0.016332877816099347,
+            -0.9998666096546299
+        ],
+        "ref_direct_llcs": [
+            0.020102740488237056,
+            -0.9997979194941657
+        ],
+        "ref_direct_llcs_length": 0.9999999999999999,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            4.514629107131929e-06,
+            -0.00022453241095359456
+        ],
+        "next_point_real": [
+            139.69420717335453,
+            35.66729592416846
+        ],
+        "next_point_name": [
+            139.69443674937858,
+            35.667386932015035
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 29.639692022668658,
+        "reached_wp": false,
+        "distance_ep": 217.04370847482568,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 17,
+        "waypoint_index": 4,
+        "target_waypoint": [
+            139.6944378024414,
+            35.66733455855856
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69420717335453,
+            35.66729592416846
+        ],
+        "cur_point_name": [
+            139.69443674937858,
+            35.667386932015035
+        ],
+        "fly_angle_ccs": 270.9358465775015,
+        "start_xy": [
+            2304,
+            3328
+        ],
+        "block_cnt_xy": [
+            2560,
+            3583
+        ],
+        "nextpt_real_xy": [
+            2519,
+            3654
+        ],
+        "rpch_in_blk_xy": [
+            215,
+            326
+        ],
+        "pixel_xy": [
+            215.81287952499574,
+            326.1536692062348
+        ],
+        "relative_xy": [
+            -40.187120475004264,
+            -70.15366920623478
+        ],
+        "norm_xy": [
+            -0.1569809393554854,
+            0.2740377703368546
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            9,
+            13
+        ],
+        "block_center": [
+            139.69431858866554,
+            35.66745392792793
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_13_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_13_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_13_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_13_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_017_139.69420717335453_35.66729592416846_270.9358465775015_64.jpg"
+        ],
+        "pos_pred": [
+            -0.33311551809310913,
+            0.23380814492702484
+        ],
+        "dir_pred": [
+            -0.019724689424037933,
+            -0.834730327129364
+        ],
+        "cur_point_pred": [
+            139.6940821639811,
+            35.667319119628154
+        ],
+        "cur_angle_pred": 268.64635183198874,
+        "cur_direct_pred": [
+            -0.023623419655697895,
+            -0.9997209280813175
+        ],
+        "fly_angle_ccs2": 270.9358465775015,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 3.0587222923585076,
+        "ref_angle_ccs": 3.0587222923585076,
+        "ref_angle_llcs": 2.485756139347391,
+        "fly_direct_ccs": [
+            0.9985753712938513,
+            0.053359421336320684
+        ],
+        "ref_direct_ccs": [
+            0.9985753712938512,
+            0.053359421336320684
+        ],
+        "ref_direct_llcs": [
+            0.9990590345881802,
+            0.04337102036767665
+        ],
+        "ref_direct_llcs_length": 1.0000000000000002,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.00022436647381157479,
+            9.740168066761734e-06
+        ],
+        "next_point_real": [
+            139.69443153982834,
+            35.667305664336524
+        ],
+        "next_point_name": [
+            139.69430653045492,
+            35.66732885979622
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 21.272534897331585,
+        "reached_wp": false,
+        "distance_ep": 231.2275521806493,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 18,
+        "waypoint_index": 4,
+        "target_waypoint": [
+            139.6944378024414,
+            35.66733455855856
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69443153982834,
+            35.667305664336524
+        ],
+        "cur_point_name": [
+            139.69430653045492,
+            35.66732885979622
+        ],
+        "fly_angle_ccs": 3.0587222923585076,
+        "start_xy": [
+            2304,
+            3328
+        ],
+        "block_cnt_xy": [
+            2560,
+            3583
+        ],
+        "nextpt_real_xy": [
+            2600,
+            3649
+        ],
+        "rpch_in_blk_xy": [
+            296,
+            321
+        ],
+        "pixel_xy": [
+            296.74109694847783,
+            321.82903458419764
+        ],
+        "relative_xy": [
+            40.74109694847783,
+            -65.82903458419764
+        ],
+        "norm_xy": [
+            0.15914490995499153,
+            0.25714466634452204
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            9,
+            13
+        ],
+        "block_center": [
+            139.69431858866554,
+            35.66745392792793
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_13_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_13_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_13_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_13_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_018_139.69443153982834_35.667305664336524_3.0587222923585076_64.jpg"
+        ],
+        "pos_pred": [
+            0.6772655844688416,
+            0.18314939737319946
+        ],
+        "dir_pred": [
+            -0.35644587874412537,
+            0.11551713943481445
+        ],
+        "cur_point_pred": [
+            139.69479926967077,
+            35.66734832827539
+        ],
+        "cur_angle_pred": 162.0435044508528,
+        "cur_direct_pred": [
+            -0.9512908774550993,
+            0.3082947720456954
+        ],
+        "fly_angle_ccs2": 3.0587222923585076,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 182.68461606281377,
+        "ref_angle_ccs": 182.68461606281377,
+        "ref_angle_llcs": 182.18156806700568,
+        "fly_direct_ccs": [
+            -0.9989024870543904,
+            -0.04683824672800344
+        ],
+        "ref_direct_ccs": [
+            -0.9989024870543904,
+            -0.046838246728004004
+        ],
+        "ref_direct_llcs": [
+            -0.9992752139820434,
+            -0.038066346306694525
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            -0.00022441502290290234,
+            -8.548856069595429e-06
+        ],
+        "next_point_real": [
+            139.69420712480544,
+            35.66729711548045
+        ],
+        "next_point_name": [
+            139.69457485464787,
+            35.667339779419315
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 3.2623201869162073,
+        "reached_wp": true,
+        "distance_ep": 214.93337956833358,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 19,
+        "waypoint_index": 5,
+        "target_waypoint": [
+            139.69441285072088,
+            35.66696068468468
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69420712480544,
+            35.66729711548045
+        ],
+        "cur_point_name": [
+            139.69457485464787,
+            35.667339779419315
+        ],
+        "fly_angle_ccs": 182.68461606281377,
+        "start_xy": [
+            2304,
+            3328
+        ],
+        "block_cnt_xy": [
+            2560,
+            3583
+        ],
+        "nextpt_real_xy": [
+            2519,
+            3653
+        ],
+        "rpch_in_blk_xy": [
+            215,
+            325
+        ],
+        "pixel_xy": [
+            215.79536803731236,
+            325.6247266805301
+        ],
+        "relative_xy": [
+            -40.20463196268766,
+            -69.6247266805301
+        ],
+        "norm_xy": [
+            -0.15704934360424866,
+            0.2719715885958207
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            9,
+            13
+        ],
+        "block_center": [
+            139.69431858866554,
+            35.66745392792793
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_13_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_13_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_13_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_13_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_019_139.69420712480544_35.66729711548045_182.68461606281377_64.jpg"
+        ],
+        "pos_pred": [
+            -0.30754005908966064,
+            0.475412517786026
+        ],
+        "dir_pred": [
+            -0.20713567733764648,
+            -0.7042140364646912
+        ],
+        "cur_point_pred": [
+            139.69410031585184,
+            35.667179816205966
+        ],
+        "cur_angle_pred": 253.60941864805037,
+        "cur_direct_pred": [
+            -0.2821837548392313,
+            -0.9593603746793133
+        ],
+        "fly_angle_ccs2": 182.68461606281377,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 319.20469124050305,
+        "ref_angle_ccs": 319.20469124050305,
+        "ref_angle_llcs": 324.9640650591558,
+        "fly_direct_ccs": [
+            0.7570485536204,
+            -0.6533586208670245
+        ],
+        "ref_direct_ccs": [
+            0.7570485536203999,
+            -0.6533586208670245
+        ],
+        "ref_direct_llcs": [
+            0.8187921457926285,
+            -0.5740900817714091
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.00018388253364009802,
+            -0.00012892788397669084
+        ],
+        "next_point_real": [
+            139.69439100733908,
+            35.667168187596474
+        ],
+        "next_point_name": [
+            139.69428419838547,
+            35.66705088832199
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 37.29400639213144,
+        "reached_wp": false,
+        "distance_ep": 231.1492232580433,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 20,
+        "waypoint_index": 5,
+        "target_waypoint": [
+            139.69441285072088,
+            35.66696068468468
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69439100733908,
+            35.667168187596474
+        ],
+        "cur_point_name": [
+            139.69428419838547,
+            35.66705088832199
+        ],
+        "fly_angle_ccs": 319.20469124050305,
+        "start_xy": [
+            2304,
+            3584
+        ],
+        "block_cnt_xy": [
+            2560,
+            3839
+        ],
+        "nextpt_real_xy": [
+            2586,
+            3710
+        ],
+        "rpch_in_blk_xy": [
+            282,
+            126
+        ],
+        "pixel_xy": [
+            282.12116711584656,
+            126.8687071663519
+        ],
+        "relative_xy": [
+            26.121167115846546,
+            129.1312928336481
+        ],
+        "norm_xy": [
+            0.10203580904627557,
+            -0.5044191126314379
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            9,
+            14
+        ],
+        "block_center": [
+            139.69431858866554,
+            35.66687735135135
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_14_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_14_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_14_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_14_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_020_139.69439100733908_35.667168187596474_319.20469124050305_64.jpg"
+        ],
+        "pos_pred": [
+            0.23900233209133148,
+            -0.4714272916316986
+        ],
+        "dir_pred": [
+            0.7007617950439453,
+            -0.41727006435394287
+        ],
+        "cur_point_pred": [
+            139.69448821766173,
+            35.66714916528527
+        ],
+        "cur_angle_pred": 329.22822866009807,
+        "cur_direct_pred": [
+            0.8592120675165684,
+            -0.5116196077496484
+        ],
+        "fly_angle_ccs2": 319.20469124050305,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 252.0031695247867,
+        "ref_angle_ccs": 252.0031695247867,
+        "ref_angle_llcs": 248.2052207355292,
+        "fly_direct_ccs": [
+            -0.3089643827460184,
+            -0.9510736092408263
+        ],
+        "ref_direct_ccs": [
+            -0.308964382746018,
+            -0.9510736092408264
+        ],
+        "ref_direct_llcs": [
+            -0.37128323128600044,
+            -0.9285196617012621
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            -8.338196893774714e-05,
+            -0.00020852489707628055
+        ],
+        "next_point_real": [
+            139.69430762537013,
+            35.6669596626994
+        ],
+        "next_point_name": [
+            139.69440483569278,
+            35.66694064038819
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 22.036240151572077,
+        "reached_wp": false,
+        "distance_ep": 227.94596339650047,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 21,
+        "waypoint_index": 5,
+        "target_waypoint": [
+            139.69441285072088,
+            35.66696068468468
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69430762537013,
+            35.6669596626994
+        ],
+        "cur_point_name": [
+            139.69440483569278,
+            35.66694064038819
+        ],
+        "fly_angle_ccs": 252.0031695247867,
+        "start_xy": [
+            2304,
+            3584
+        ],
+        "block_cnt_xy": [
+            2560,
+            3839
+        ],
+        "nextpt_real_xy": [
+            2556,
+            3803
+        ],
+        "rpch_in_blk_xy": [
+            252,
+            219
+        ],
+        "pixel_xy": [
+            252.0455769551021,
+            219.45376146800277
+        ],
+        "relative_xy": [
+            -3.9544230448979114,
+            36.54623853199723
+        ],
+        "norm_xy": [
+            -0.015446965019132466,
+            -0.1427587442656142
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            9,
+            14
+        ],
+        "block_center": [
+            139.69431858866554,
+            35.66687735135135
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_14_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_14_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_14_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_14_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_021_139.69430762537013_35.6669596626994_252.0031695247867_64.jpg"
+        ],
+        "pos_pred": [
+            -0.4495956301689148,
+            -0.19855402410030365
+        ],
+        "dir_pred": [
+            -0.7696235179901123,
+            -0.6138115525245667
+        ],
+        "cur_point_pred": [
+            139.6939994936393,
+            35.666991832950835
+        ],
+        "cur_angle_pred": 218.57403495708766,
+        "cur_direct_pred": [
+            -0.7818031191009519,
+            -0.623525366736609
+        ],
+        "fly_angle_ccs2": 252.0031695247867,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 354.70080791569956,
+        "ref_angle_ccs": 354.70080791569956,
+        "ref_angle_llcs": 355.69065636293215,
+        "fly_direct_ccs": [
+            0.9957260005837576,
+            -0.09235654693347263
+        ],
+        "ref_direct_ccs": [
+            0.9957260005837576,
+            -0.09235654693347242
+        ],
+        "ref_direct_llcs": [
+            0.9971728929423572,
+            -0.07514134401892292
+        ],
+        "ref_direct_llcs_length": 0.9999999999999999,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.0002239428882820601,
+            -1.6875077259010716e-05
+        ],
+        "next_point_real": [
+            139.6945315682584,
+            35.66694278762214
+        ],
+        "next_point_name": [
+            139.69422343652758,
+            35.66697495787358
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 9.506418645263118,
+        "reached_wp": true,
+        "distance_ep": 249.64742677553528,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 22,
+        "waypoint_index": 6,
+        "target_waypoint": [
+            139.69490356789134,
+            35.66693140540541
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.6945315682584,
+            35.66694278762214
+        ],
+        "cur_point_name": [
+            139.69422343652758,
+            35.66697495787358
+        ],
+        "fly_angle_ccs": 354.70080791569956,
+        "start_xy": [
+            2304,
+            3584
+        ],
+        "block_cnt_xy": [
+            2560,
+            3839
+        ],
+        "nextpt_real_xy": [
+            2636,
+            3810
+        ],
+        "rpch_in_blk_xy": [
+            332,
+            226
+        ],
+        "pixel_xy": [
+            332.8210085299739,
+            226.94629577026126
+        ],
+        "relative_xy": [
+            76.82100852997388,
+            29.05370422973874
+        ],
+        "norm_xy": [
+            0.30008206457021047,
+            -0.11349103214741696
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            9,
+            14
+        ],
+        "block_center": [
+            139.69431858866554,
+            35.66687735135135
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_14_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_14_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_14_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_9_14_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_022_139.6945315682584_35.66694278762214_354.70080791569956_64.jpg"
+        ],
+        "pos_pred": [
+            0.6336688995361328,
+            -0.14392328262329102
+        ],
+        "dir_pred": [
+            -0.6054880619049072,
+            -0.12593619525432587
+        ],
+        "cur_point_pred": [
+            139.69476832745428,
+            35.66696033414494
+        ],
+        "cur_angle_pred": 191.74950088255463,
+        "cur_direct_pred": [
+            -0.9790472464201695,
+            -0.20363322242965148
+        ],
+        "fly_angle_ccs2": 354.70080791569956,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 345.24909502196783,
+        "ref_angle_ccs": 345.24909502196783,
+        "ref_angle_llcs": 347.9260459901725,
+        "fly_direct_ccs": [
+            0.9670419173946707,
+            -0.25461722251575775
+        ],
+        "ref_direct_ccs": [
+            0.9670419173946708,
+            -0.2546172225157576
+        ],
+        "ref_direct_llcs": [
+            0.9778784258687335,
+            -0.20917405245509765
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.00021960977943512701,
+            -4.6975847209642843e-05
+        ],
+        "next_point_real": [
+            139.69475117803785,
+            35.66689581177493
+        ],
+        "next_point_name": [
+            139.69498793723372,
+            35.66691335829773
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 12.63359223862544,
+        "reached_wp": true,
+        "distance_ep": 237.53177904871131,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 23,
+        "waypoint_index": 7,
+        "target_waypoint": [
+            139.69541923678236,
+            35.66700122522523
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69475117803785,
+            35.66689581177493
+        ],
+        "cur_point_name": [
+            139.69498793723372,
+            35.66691335829773
+        ],
+        "fly_angle_ccs": 345.24909502196783,
+        "start_xy": [
+            2560,
+            3584
+        ],
+        "block_cnt_xy": [
+            2815,
+            3839
+        ],
+        "nextpt_real_xy": [
+            2716,
+            3831
+        ],
+        "rpch_in_blk_xy": [
+            156,
+            247
+        ],
+        "pixel_xy": [
+            156.03350261579084,
+            247.80357193245072
+        ],
+        "relative_xy": [
+            -99.96649738420916,
+            8.196428067549277
+        ],
+        "norm_xy": [
+            -0.39049413040706704,
+            -0.032017297138864365
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            10,
+            14
+        ],
+        "block_center": [
+            139.695028326494,
+            35.66687735135135
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_10_14_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_10_14_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_10_14_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_10_14_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_023_139.69475117803785_35.66689581177493_345.24909502196783_64.jpg"
+        ],
+        "pos_pred": [
+            -0.6301445364952087,
+            -0.08154231309890747
+        ],
+        "dir_pred": [
+            0.8906971216201782,
+            -0.41772758960723877
+        ],
+        "cur_point_pred": [
+            139.69458108907904,
+            35.66692436673909
+        ],
+        "cur_angle_pred": 334.8739162366477,
+        "cur_direct_pred": [
+            0.9053755894294105,
+            -0.424611636752159
+        ],
+        "fly_angle_ccs2": 345.24909502196783,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 6.439895885984895,
+        "ref_angle_ccs": 6.439895885984895,
+        "ref_angle_llcs": 5.239393172846357,
+        "fly_direct_ccs": [
+            0.9936900608092905,
+            0.11216088020708767
+        ],
+        "ref_direct_ccs": [
+            0.9936900608092902,
+            0.11216088020708764
+        ],
+        "ref_direct_llcs": [
+            0.9958218496618622,
+            0.09131726964833904
+        ],
+        "ref_direct_llcs_length": 0.9999999999999998,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.0002236394739628688,
+            2.0507830948692743e-05
+        ],
+        "next_point_real": [
+            139.69497481751182,
+            35.666916319605875
+        ],
+        "next_point_name": [
+            139.694804728553,
+            35.666944874570035
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 61.47816186704607,
+        "reached_wp": false,
+        "distance_ep": 229.54441148123593,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 24,
+        "waypoint_index": 7,
+        "target_waypoint": [
+            139.69541923678236,
+            35.66700122522523
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69497481751182,
+            35.666916319605875
+        ],
+        "cur_point_name": [
+            139.694804728553,
+            35.666944874570035
+        ],
+        "fly_angle_ccs": 6.439895885984895,
+        "start_xy": [
+            2560,
+            3584
+        ],
+        "block_cnt_xy": [
+            2815,
+            3839
+        ],
+        "nextpt_real_xy": [
+            2796,
+            3822
+        ],
+        "rpch_in_blk_xy": [
+            236,
+            238
+        ],
+        "pixel_xy": [
+            236.69949368969478,
+            238.698094992287
+        ],
+        "relative_xy": [
+            -19.30050631030523,
+            17.301905007713003
+        ],
+        "norm_xy": [
+            -0.07539260277462981,
+            -0.06758556643637892
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            10,
+            14
+        ],
+        "block_center": [
+            139.695028326494,
+            35.66687735135135
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_10_14_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_10_14_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_10_14_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_10_14_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_024_139.69497481751182_35.666916319605875_6.439895885984895_64.jpg"
+        ],
+        "pos_pred": [
+            -0.15812377631664276,
+            -0.1934787929058075
+        ],
+        "dir_pred": [
+            0.7119286060333252,
+            -0.48092812299728394
+        ],
+        "cur_point_pred": [
+            139.69491610006835,
+            35.66698890669141
+        ],
+        "cur_angle_pred": 325.95984918738776,
+        "cur_direct_pred": [
+            0.8286455068421064,
+            -0.559773725705654
+        ],
+        "fly_angle_ccs2": 6.439895885984895,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 1.7261700875030974,
+        "ref_angle_ccs": 1.7261700875030974,
+        "ref_angle_llcs": 1.402519435315659,
+        "fly_direct_ccs": [
+            0.9995462056722123,
+            0.03012279413141338
+        ],
+        "ref_direct_ccs": [
+            0.9995462056722123,
+            0.03012279413141338
+        ],
+        "ref_direct_llcs": [
+            0.9997004144721584,
+            0.024476137444344372
+        ],
+        "ref_direct_llcs_length": 0.9999999999999999,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.0002245105134908728,
+            5.496796946717655e-06
+        ],
+        "next_point_real": [
+            139.69519932802532,
+            35.66692181640282
+        ],
+        "next_point_name": [
+            139.69514061058186,
+            35.66699440348835
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 41.242634858641324,
+        "reached_wp": false,
+        "distance_ep": 216.53373235463607,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 25,
+        "waypoint_index": 7,
+        "target_waypoint": [
+            139.69541923678236,
+            35.66700122522523
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69519932802532,
+            35.66692181640282
+        ],
+        "cur_point_name": [
+            139.69514061058186,
+            35.66699440348835
+        ],
+        "fly_angle_ccs": 1.7261700875030974,
+        "start_xy": [
+            2560,
+            3584
+        ],
+        "block_cnt_xy": [
+            2815,
+            3839
+        ],
+        "nextpt_real_xy": [
+            2877,
+            3820
+        ],
+        "rpch_in_blk_xy": [
+            317,
+            236
+        ],
+        "pixel_xy": [
+            317.67966573473893,
+            236.25751714882858
+        ],
+        "relative_xy": [
+            61.67966573473896,
+            19.742482851171417
+        ],
+        "norm_xy": [
+            0.24093619427632407,
+            -0.07711907363738835
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            10,
+            14
+        ],
+        "block_center": [
+            139.695028326494,
+            35.66687735135135
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_10_14_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_10_14_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_10_14_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_10_14_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_025_139.69519932802532_35.66692181640282_1.7261700875030974_64.jpg"
+        ],
+        "pos_pred": [
+            0.20532545447349548,
+            -0.42849430441856384
+        ],
+        "dir_pred": [
+            0.8614770174026489,
+            -0.2940981984138489
+        ],
+        "cur_point_pred": [
+            139.6951740537362,
+            35.66712441113048
+        ],
+        "cur_angle_pred": 341.15069424266653,
+        "cur_direct_pred": [
+            0.9463715845960597,
+            -0.3230802127477681
+        ],
+        "fly_angle_ccs2": 1.7261700875030974,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 328.2661294373936,
+        "ref_angle_ccs": 328.2661294373936,
+        "ref_angle_llcs": 333.32393770279026,
+        "fly_direct_ccs": [
+            0.8505003267219229,
+            -0.5259745186279489
+        ],
+        "ref_direct_ccs": [
+            0.850500326721923,
+            -0.5259745186279485
+        ],
+        "ref_direct_llcs": [
+            0.89355903211475,
+            -0.44894571623543905
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.0002006735160157092,
+            -0.00010082323846466022
+        ],
+        "next_point_real": [
+            139.69540000154134,
+            35.66682099316436
+        ],
+        "next_point_name": [
+            139.69537472725222,
+            35.66702358789202
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 21.73982526674173,
+        "reached_wp": false,
+        "distance_ep": 206.17471544256532,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 26,
+        "waypoint_index": 7,
+        "target_waypoint": [
+            139.69541923678236,
+            35.66700122522523
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69540000154134,
+            35.66682099316436
+        ],
+        "cur_point_name": [
+            139.69537472725222,
+            35.66702358789202
+        ],
+        "fly_angle_ccs": 328.2661294373936,
+        "start_xy": [
+            2560,
+            3584
+        ],
+        "block_cnt_xy": [
+            2815,
+            3839
+        ],
+        "nextpt_real_xy": [
+            2950,
+            3865
+        ],
+        "rpch_in_blk_xy": [
+            390,
+            281
+        ],
+        "pixel_xy": [
+            390.06191455891906,
+            281.02303502598124
+        ],
+        "relative_xy": [
+            134.06191455891909,
+            -25.023035025981244
+        ],
+        "norm_xy": [
+            0.5236793537457777,
+            0.09774623057023923
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            10,
+            14
+        ],
+        "block_center": [
+            139.695028326494,
+            35.66687735135135
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_10_14_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_10_14_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_10_14_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_10_14_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_026_139.69540000154134_35.66682099316436_328.2661294373936_64.jpg"
+        ],
+        "pos_pred": [
+            0.42446160316467285,
+            0.14766940474510193
+        ],
+        "dir_pred": [
+            0.7842601537704468,
+            -0.6064180731773376
+        ],
+        "cur_point_pred": [
+            139.6953295829505,
+            35.6667922086315
+        ],
+        "cur_angle_pred": 322.28751865614464,
+        "cur_direct_pred": [
+            0.7910902988110539,
+            -0.611699386240527
+        ],
+        "fly_angle_ccs2": 328.2661294373936,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 70.7879679641428,
+        "ref_angle_ccs": 70.7879679641428,
+        "ref_angle_llcs": 66.78397535590554,
+        "fly_direct_ccs": [
+            0.329064957240455,
+            0.9443072878657336
+        ],
+        "ref_direct_ccs": [
+            0.32906495724045504,
+            0.9443072878657336
+        ],
+        "ref_direct_llcs": [
+            0.39419896052614245,
+            0.9190251245314836
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            8.852833285261914e-05,
+            0.00020639263486603568
+        ],
+        "next_point_real": [
+            139.69548852987418,
+            35.66702738579922
+        ],
+        "next_point_name": [
+            139.69541811128335,
+            35.666998601266364
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 20.116081790527,
+        "reached_wp": false,
+        "distance_ep": 209.17032229700854,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 27,
+        "waypoint_index": 7,
+        "target_waypoint": [
+            139.69541923678236,
+            35.66700122522523
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69548852987418,
+            35.66702738579922
+        ],
+        "cur_point_name": [
+            139.69541811128335,
+            35.666998601266364
+        ],
+        "fly_angle_ccs": 70.7879679641428,
+        "start_xy": [
+            2816,
+            3584
+        ],
+        "block_cnt_xy": [
+            3071,
+            3839
+        ],
+        "nextpt_real_xy": [
+            2981,
+            3773
+        ],
+        "rpch_in_blk_xy": [
+            165,
+            189
+        ],
+        "pixel_xy": [
+            165.9937805177266,
+            189.3847051457269
+        ],
+        "relative_xy": [
+            -90.0062194822734,
+            66.61529485427309
+        ],
+        "norm_xy": [
+            -0.35158679485263045,
+            -0.26021599552450425
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            11,
+            14
+        ],
+        "block_center": [
+            139.69573806432248,
+            35.66687735135135
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_11_14_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_11_14_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_11_14_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_11_14_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_027_139.69548852987418_35.66702738579922_70.7879679641428_64.jpg"
+        ],
+        "pos_pred": [
+            -0.5700775980949402,
+            -0.6283810138702393
+        ],
+        "dir_pred": [
+            0.4780820310115814,
+            0.8597694039344788
+        ],
+        "cur_point_pred": [
+            139.69533345868595,
+            35.667239661125116
+        ],
+        "cur_angle_pred": 60.92338312823342,
+        "cur_direct_pred": [
+            0.4859787424986505,
+            0.873970629849442
+        ],
+        "fly_angle_ccs2": 70.7879679641428,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 286.292088356661,
+        "ref_angle_ccs": 286.292088356661,
+        "ref_angle_llcs": 289.78636105523,
+        "fly_direct_ccs": [
+            0.2805341722750554,
+            -0.959844038469766
+        ],
+        "ref_direct_ccs": [
+            0.2805341722750556,
+            -0.9598440384697658
+        ],
+        "ref_direct_llcs": [
+            0.33851393916471484,
+            -0.9409613769922694
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            7.602271361047316e-05,
+            -0.0002113190300467727
+        ],
+        "next_point_real": [
+            139.6955645525878,
+            35.66681606676918
+        ],
+        "next_point_name": [
+            139.69540948139957,
+            35.66702834209507
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 6.902606388638626,
+        "reached_wp": true,
+        "distance_ep": 184.87692810155528,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 28,
+        "waypoint_index": 8,
+        "target_waypoint": [
+            139.69648107111166,
+            35.667553027027026
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.6955645525878,
+            35.66681606676918
+        ],
+        "cur_point_name": [
+            139.69540948139957,
+            35.66702834209507
+        ],
+        "fly_angle_ccs": 286.292088356661,
+        "start_xy": [
+            2816,
+            3584
+        ],
+        "block_cnt_xy": [
+            3071,
+            3839
+        ],
+        "nextpt_real_xy": [
+            3009,
+            3867
+        ],
+        "rpch_in_blk_xy": [
+            193,
+            283
+        ],
+        "pixel_xy": [
+            193.41491252485855,
+            283.21035448502107
+        ],
+        "relative_xy": [
+            -62.58508747514144,
+            -27.21035448502107
+        ],
+        "norm_xy": [
+            -0.24447299794977126,
+            0.10629044720711356
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            11,
+            14
+        ],
+        "block_center": [
+            139.69573806432248,
+            35.66687735135135
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_11_14_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_11_14_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_11_14_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_11_14_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_028_139.6955645525878_35.66681606676918_286.292088356661_64.jpg"
+        ],
+        "pos_pred": [
+            -0.2518288493156433,
+            0.2240201085805893
+        ],
+        "dir_pred": [
+            0.25716257095336914,
+            -0.9515892863273621
+        ],
+        "cur_point_pred": [
+            139.69555933186183,
+            35.66674818660406
+        ],
+        "cur_angle_pred": 285.12267617778144,
+        "cur_direct_pred": [
+            0.26088659716065526,
+            -0.9653694543654953
+        ],
+        "fly_angle_ccs2": 286.292088356661,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 47.06431044857669,
+        "ref_angle_ccs": 47.06431044857669,
+        "ref_angle_llcs": 41.12667561123407,
+        "fly_direct_ccs": [
+            0.6811770379721571,
+            0.732118735547369
+        ],
+        "ref_direct_ccs": [
+            0.6811770379721572,
+            0.7321187355473691
+        ],
+        "ref_direct_llcs": [
+            0.7532572516841414,
+            0.6577260165032658
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.0001691648517077213,
+            0.0001477106576768024
+        ],
+        "next_point_real": [
+            139.6957337174395,
+            35.66696377742686
+        ],
+        "next_point_name": [
+            139.69572849671354,
+            35.66689589726174
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 116.4913900508412,
+        "reached_wp": false,
+        "distance_ep": 204.9006743887026,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 29,
+        "waypoint_index": 8,
+        "target_waypoint": [
+            139.69648107111166,
+            35.667553027027026
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.6957337174395,
+            35.66696377742686
+        ],
+        "cur_point_name": [
+            139.69572849671354,
+            35.66689589726174
+        ],
+        "fly_angle_ccs": 47.06431044857669,
+        "start_xy": [
+            2816,
+            3584
+        ],
+        "block_cnt_xy": [
+            3071,
+            3839
+        ],
+        "nextpt_real_xy": [
+            3070,
+            3801
+        ],
+        "rpch_in_blk_xy": [
+            254,
+            217
+        ],
+        "pixel_xy": [
+            254.4320942229539,
+            217.62682247572207
+        ],
+        "relative_xy": [
+            -1.5679057770460996,
+            38.373177524277935
+        ],
+        "norm_xy": [
+            -0.0061246319415863264,
+            -0.14989522470421068
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            11,
+            14
+        ],
+        "block_center": [
+            139.69573806432248,
+            35.66687735135135
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_11_14_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_11_14_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_11_14_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_11_14_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_029_139.6957337174395_35.66696377742686_47.06431044857669_64.jpg"
+        ],
+        "pos_pred": [
+            0.23953218758106232,
+            -0.017478778958320618
+        ],
+        "dir_pred": [
+            0.6847918033599854,
+            0.7161656618118286
+        ],
+        "cur_point_pred": [
+            139.69590806937714,
+            35.666887429205886
+        ],
+        "cur_angle_pred": 46.28290066182086,
+        "cur_direct_pred": [
+            0.6910981424415971,
+            0.7227609269418028
+        ],
+        "fly_angle_ccs2": 47.06431044857669,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 55.03110082622713,
+        "ref_angle_ccs": 55.03110082622713,
+        "ref_angle_llcs": 49.27540466802678,
+        "fly_direct_ccs": [
+            0.5731317064620863,
+            0.8194632676623503
+        ],
+        "ref_direct_ccs": [
+            0.5731317064620863,
+            0.8194632676623503
+        ],
+        "ref_direct_llcs": [
+            0.6524237877038432,
+            0.7578543403835399
+        ],
+        "ref_direct_llcs_length": 0.9999999999999999,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.0001465198948310823,
+            0.00017019725574549496
+        ],
+        "next_point_real": [
+            139.69588023733434,
+            35.667133974682606
+        ],
+        "next_point_name": [
+            139.69605458927197,
+            35.667057626461634
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 90.31643643965651,
+        "reached_wp": false,
+        "distance_ep": 185.02254279258003,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 30,
+        "waypoint_index": 8,
+        "target_waypoint": [
+            139.69648107111166,
+            35.667553027027026
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69588023733434,
+            35.667133974682606
+        ],
+        "cur_point_name": [
+            139.69605458927197,
+            35.667057626461634
+        ],
+        "fly_angle_ccs": 55.03110082622713,
+        "start_xy": [
+            2816,
+            3584
+        ],
+        "block_cnt_xy": [
+            3071,
+            3839
+        ],
+        "nextpt_real_xy": [
+            3123,
+            3726
+        ],
+        "rpch_in_blk_xy": [
+            307,
+            142
+        ],
+        "pixel_xy": [
+            307.2813176551906,
+            142.05924092343002
+        ],
+        "relative_xy": [
+            51.281317655190605,
+            113.94075907656998
+        ],
+        "norm_xy": [
+            0.2003176470905883,
+            -0.44508109014285147
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            11,
+            14
+        ],
+        "block_center": [
+            139.69573806432248,
+            35.66687735135135
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_11_14_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_11_14_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_11_14_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_11_14_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_030_139.69588023733434_35.667133974682606_55.03110082622713_64.jpg"
+        ],
+        "pos_pred": [
+            0.3488713502883911,
+            -0.5432734489440918
+        ],
+        "dir_pred": [
+            0.23406678438186646,
+            0.9351900815963745
+        ],
+        "cur_point_pred": [
+            139.69598567151706,
+            35.66719059009669
+        ],
+        "cur_angle_pred": 75.94823113790643,
+        "cur_direct_pred": [
+            0.24279849491077396,
+            0.9700767448346872
+        ],
+        "fly_angle_ccs2": 55.03110082622713,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 42.003892944418546,
+        "ref_angle_ccs": 42.003892944418546,
+        "ref_angle_llcs": 36.18939727327205,
+        "fly_direct_ccs": [
+            0.7430993598853005,
+            0.6691810975648197
+        ],
+        "ref_direct_ccs": [
+            0.7430993598853006,
+            0.6691810975648196
+        ],
+        "ref_direct_llcs": [
+            0.8070695913762786,
+            0.5904563274923276
+        ],
+        "ref_direct_llcs_length": 1.0000000000000002,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.00018124990823218618,
+            0.00013260337933262837
+        ],
+        "next_point_real": [
+            139.69606148724256,
+            35.66726657806194
+        ],
+        "next_point_name": [
+            139.6961669214253,
+            35.66732319347602
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 60.22444514197449,
+        "reached_wp": false,
+        "distance_ep": 163.70766213561814,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 31,
+        "waypoint_index": 8,
+        "target_waypoint": [
+            139.69648107111166,
+            35.667553027027026
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69606148724256,
+            35.66726657806194
+        ],
+        "cur_point_name": [
+            139.6961669214253,
+            35.66732319347602
+        ],
+        "fly_angle_ccs": 42.003892944418546,
+        "start_xy": [
+            3072,
+            3328
+        ],
+        "block_cnt_xy": [
+            3328,
+            3583
+        ],
+        "nextpt_real_xy": [
+            3188,
+            3667
+        ],
+        "rpch_in_blk_xy": [
+            116,
+            339
+        ],
+        "pixel_xy": [
+            116.65753777691319,
+            339.1833404991187
+        ],
+        "relative_xy": [
+            -139.3424622230868,
+            -83.18334049911869
+        ],
+        "norm_xy": [
+            -0.5443064930589329,
+            0.32493492382468236
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            12,
+            13
+        ],
+        "block_center": [
+            139.69644780215097,
+            35.66745392792793
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_13_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_13_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_13_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_13_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_031_139.69606148724256_35.66726657806194_42.003892944418546_64.jpg"
+        ],
+        "pos_pred": [
+            -0.981123149394989,
+            0.6226151585578918
+        ],
+        "dir_pred": [
+            0.836037278175354,
+            0.22242239117622375
+        ],
+        "cur_point_pred": [
+            139.69575146193745,
+            35.667094942611286
+        ],
+        "cur_angle_pred": 14.898084518081932,
+        "cur_direct_pred": [
+            0.9663846751075781,
+            0.25710048564174437
+        ],
+        "fly_angle_ccs2": 42.003892944418546,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 37.69745861449858,
+        "ref_angle_ccs": 37.69745861449858,
+        "ref_angle_llcs": 32.12261731775155,
+        "fly_direct_ccs": [
+            0.7912506568040308,
+            0.6114919444336039
+        ],
+        "ref_direct_ccs": [
+            0.7912506568040308,
+            0.6114919444336039
+        ],
+        "ref_direct_llcs": [
+            0.8469120875703834,
+            0.5317329366582207
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.00019019764812486153,
+            0.00011941540977771756
+        ],
+        "next_point_real": [
+            139.69625168489068,
+            35.66738599347172
+        ],
+        "next_point_name": [
+            139.69594165958557,
+            35.66721435802106
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 49.5098084796502,
+        "reached_wp": false,
+        "distance_ep": 146.75624512306013,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 32,
+        "waypoint_index": 8,
+        "target_waypoint": [
+            139.69648107111166,
+            35.667553027027026
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69625168489068,
+            35.66738599347172
+        ],
+        "cur_point_name": [
+            139.69594165958557,
+            35.66721435802106
+        ],
+        "fly_angle_ccs": 37.69745861449858,
+        "start_xy": [
+            2816,
+            3328
+        ],
+        "block_cnt_xy": [
+            3071,
+            3583
+        ],
+        "nextpt_real_xy": [
+            3257,
+            3614
+        ],
+        "rpch_in_blk_xy": [
+            441,
+            286
+        ],
+        "pixel_xy": [
+            441.26117699071654,
+            286.16289855793275
+        ],
+        "relative_xy": [
+            185.2611769907165,
+            -30.16289855793275
+        ],
+        "norm_xy": [
+            0.7236764726199864,
+            0.1178238224919248
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            11,
+            13
+        ],
+        "block_center": [
+            139.69573806432248,
+            35.66745392792793
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_11_13_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_11_13_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_11_13_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_11_13_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_032_139.69625168489068_35.66738599347172_37.69745861449858_64.jpg"
+        ],
+        "pos_pred": [
+            0.928290605545044,
+            -0.1012284904718399
+        ],
+        "dir_pred": [
+            0.8093990087509155,
+            0.545947253704071
+        ],
+        "cur_point_pred": [
+            139.69639690728107,
+            35.667512293904416
+        ],
+        "cur_angle_pred": 34.0000354571089,
+        "cur_direct_pred": [
+            0.8290372265021049,
+            0.5591934165149817
+        ],
+        "fly_angle_ccs2": 37.69745861449858,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 30.783152930799908,
+        "ref_angle_ccs": 30.783152930799908,
+        "ref_angle_llcs": 25.8257844582077,
+        "fly_direct_ccs": [
+            0.859110419255865,
+            0.5117902768967109
+        ],
+        "ref_direct_ccs": [
+            0.8591104192558651,
+            0.5117902768967109
+        ],
+        "ref_direct_llcs": [
+            0.9001228159359075,
+            0.4356362200639572
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.00020214759610490195,
+            9.783422117857464e-05
+        ],
+        "next_point_real": [
+            139.69645383248678,
+            35.6674838276929
+        ],
+        "next_point_name": [
+            139.69659905487717,
+            35.667610128125595
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 8.849920478253955,
+        "reached_wp": true,
+        "distance_ep": 132.80342998751186,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 33,
+        "waypoint_index": 9,
+        "target_waypoint": [
+            139.6965448366197,
+            35.66791789189189
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69645383248678,
+            35.6674838276929
+        ],
+        "cur_point_name": [
+            139.69659905487717,
+            35.667610128125595
+        ],
+        "fly_angle_ccs": 30.783152930799908,
+        "start_xy": [
+            3072,
+            3328
+        ],
+        "block_cnt_xy": [
+            3328,
+            3583
+        ],
+        "nextpt_real_xy": [
+            3330,
+            3570
+        ],
+        "rpch_in_blk_xy": [
+            258,
+            242
+        ],
+        "pixel_xy": [
+            258.1751214402086,
+            242.72450435424253
+        ],
+        "relative_xy": [
+            2.175121440208614,
+            13.275495645757474
+        ],
+        "norm_xy": [
+            0.008496568125814898,
+            -0.05185740486624013
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            12,
+            13
+        ],
+        "block_center": [
+            139.69644780215097,
+            35.66745392792793
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_13_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_13_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_13_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_13_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_033_139.69645383248678_35.6674838276929_30.783152930799908_64.jpg"
+        ],
+        "pos_pred": [
+            0.05116644501686096,
+            -0.2659258246421814
+        ],
+        "dir_pred": [
+            0.82930588722229,
+            0.48736172914505005
+        ],
+        "cur_point_pred": [
+            139.69648411691256,
+            35.66760725452953
+        ],
+        "cur_angle_pred": 30.44165792955582,
+        "cur_direct_pred": [
+            0.862145520293128,
+            0.506660736428719
+        ],
+        "fly_angle_ccs2": 30.783152930799908,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 80.97672339158947,
+        "ref_angle_ccs": 80.97672339158947,
+        "ref_angle_llcs": 78.93995343927996,
+        "fly_direct_ccs": [
+            0.15683570392136106,
+            0.9876247070499458
+        ],
+        "ref_direct_ccs": [
+            0.15683570392136106,
+            0.9876247070499459
+        ],
+        "ref_direct_llcs": [
+            0.19183764569317216,
+            0.981426674639986
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            4.3082475227535965e-05,
+            0.0002204066373158431
+        ],
+        "next_point_real": [
+            139.696496914962,
+            35.667704234330216
+        ],
+        "next_point_name": [
+            139.6965271993878,
+            35.66782766116685
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 34.974111979925176,
+        "reached_wp": false,
+        "distance_ep": 123.70438206701307,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 34,
+        "waypoint_index": 9,
+        "target_waypoint": [
+            139.6965448366197,
+            35.66791789189189
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.696496914962,
+            35.667704234330216
+        ],
+        "cur_point_name": [
+            139.6965271993878,
+            35.66782766116685
+        ],
+        "fly_angle_ccs": 80.97672339158947,
+        "start_xy": [
+            3072,
+            3072
+        ],
+        "block_cnt_xy": [
+            3328,
+            3328
+        ],
+        "nextpt_real_xy": [
+            3345,
+            3472
+        ],
+        "rpch_in_blk_xy": [
+            273,
+            400
+        ],
+        "pixel_xy": [
+            273.7148224626289,
+            400.8639573821424
+        ],
+        "relative_xy": [
+            17.7148224626289,
+            -144.86395738214242
+        ],
+        "norm_xy": [
+            0.06919852524464414,
+            0.5658748335239938
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            12,
+            12
+        ],
+        "block_center": [
+            139.69644780215097,
+            35.6680305045045
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_12_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_12_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_12_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_12_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_034_139.696496914962_35.667704234330216_80.97672339158947_64.jpg"
+        ],
+        "pos_pred": [
+            0.2012978494167328,
+            0.8177766799926758
+        ],
+        "dir_pred": [
+            0.6090384721755981,
+            0.4998781085014343
+        ],
+        "cur_point_pred": [
+            139.6965906708495,
+            35.667558993625946
+        ],
+        "cur_angle_pred": 39.377987764058204,
+        "cur_direct_pred": [
+            0.772977371036494,
+            0.6344335929516266
+        ],
+        "fly_angle_ccs2": 80.97672339158947,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 95.92333040658157,
+        "ref_angle_ccs": 95.92333040658157,
+        "ref_angle_llcs": 97.277742891527,
+        "fly_direct_ccs": [
+            -0.10319756369227145,
+            0.9946608783137998
+        ],
+        "ref_direct_ccs": [
+            -0.1031975636922714,
+            0.9946608783137997
+        ],
+        "ref_direct_llcs": [
+            -0.12667928788253496,
+            0.991943727245439
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            -2.8449354986196317e-05,
+            0.00022276853378670476
+        ],
+        "next_point_real": [
+            139.696468465607,
+            35.667927002864005
+        ],
+        "next_point_name": [
+            139.6965622214945,
+            35.667781762159734
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 24.14883010641845,
+        "reached_wp": false,
+        "distance_ep": 100.53775148468837,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 35,
+        "waypoint_index": 9,
+        "target_waypoint": [
+            139.6965448366197,
+            35.66791789189189
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.696468465607,
+            35.667927002864005
+        ],
+        "cur_point_name": [
+            139.6965622214945,
+            35.667781762159734
+        ],
+        "fly_angle_ccs": 95.92333040658157,
+        "start_xy": [
+            3072,
+            3072
+        ],
+        "block_cnt_xy": [
+            3328,
+            3328
+        ],
+        "nextpt_real_xy": [
+            3335,
+            3373
+        ],
+        "rpch_in_blk_xy": [
+            263,
+            301
+        ],
+        "pixel_xy": [
+            263.4532377087961,
+            301.9547283800248
+        ],
+        "relative_xy": [
+            7.453237708796127,
+            -45.95472838002479
+        ],
+        "norm_xy": [
+            0.029114209799984872,
+            0.17951065773447183
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            12,
+            12
+        ],
+        "block_center": [
+            139.69644780215097,
+            35.6680305045045
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_12_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_12_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_12_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_12_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_035_139.696468465607_35.667927002864005_95.92333040658157_64.jpg"
+        ],
+        "pos_pred": [
+            0.12297925353050232,
+            0.8254396915435791
+        ],
+        "dir_pred": [
+            0.529550313949585,
+            0.40117698907852173
+        ],
+        "cur_point_pred": [
+            139.6965350851793,
+            35.66755457531298
+        ],
+        "cur_angle_pred": 37.14685916258954,
+        "cur_direct_pred": [
+            0.7970903304937406,
+            0.6038600872995162
+        ],
+        "fly_angle_ccs2": 95.92333040658157,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 88.75085328710328,
+        "ref_angle_ccs": 88.75085328710328,
+        "ref_angle_llcs": 88.46254670340755,
+        "fly_direct_ccs": [
+            0.021799995906777548,
+            0.9997623518509109
+        ],
+        "ref_direct_ccs": [
+            0.021799995906777652,
+            0.9997623518509108
+        ],
+        "ref_direct_llcs": [
+            0.026830402008915316,
+            0.9996399999640071
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            6.025512488527514e-06,
+            0.00022449694573392184
+        ],
+        "next_point_real": [
+            139.6964744911195,
+            35.66815149980974
+        ],
+        "next_point_name": [
+            139.69654111069178,
+            35.66777907225871
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 6.97303019616074,
+        "reached_wp": true,
+        "distance_ep": 75.99335193491497,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 36,
+        "waypoint_index": 10,
+        "target_waypoint": [
+            139.69663355384827,
+            35.668264738738735
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.6964744911195,
+            35.66815149980974
+        ],
+        "cur_point_name": [
+            139.69654111069178,
+            35.66777907225871
+        ],
+        "fly_angle_ccs": 88.75085328710328,
+        "start_xy": [
+            3072,
+            3072
+        ],
+        "block_cnt_xy": [
+            3328,
+            3328
+        ],
+        "nextpt_real_xy": [
+            3337,
+            3274
+        ],
+        "rpch_in_blk_xy": [
+            265,
+            202
+        ],
+        "pixel_xy": [
+            265.6266193887534,
+            202.27808447427242
+        ],
+        "relative_xy": [
+            9.626619388753385,
+            53.72191552572758
+        ],
+        "norm_xy": [
+            0.03760398198731791,
+            -0.20985123252237337
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            12,
+            12
+        ],
+        "block_center": [
+            139.69644780215097,
+            35.6680305045045
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_12_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_12_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_12_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_12_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_036_139.6964744911195_35.66815149980974_88.75085328710328_64.jpg"
+        ],
+        "pos_pred": [
+            -0.01588757336139679,
+            -0.22209332883358002
+        ],
+        "dir_pred": [
+            0.43538933992385864,
+            -0.3402850031852722
+        ],
+        "cur_point_pred": [
+            139.69643652613917,
+            35.66815855831572
+        ],
+        "cur_angle_pred": 321.99006708767996,
+        "cur_direct_pred": [
+            0.787904009446021,
+            -0.6157980772127212
+        ],
+        "fly_angle_ccs2": 88.75085328710328,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 33.558203787941835,
+        "ref_angle_ccs": 33.558203787941835,
+        "ref_angle_llcs": 28.320721165094863,
+        "fly_direct_ccs": [
+            0.8333247079634684,
+            0.5527838014066622
+        ],
+        "ref_direct_ccs": [
+            0.8333247079634684,
+            0.5527838014066623
+        ],
+        "ref_direct_llcs": [
+            0.8803058407204966,
+            0.4744066049217481
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.00019769714353227104,
+            0.00010654118867268866
+        ],
+        "next_point_real": [
+            139.69667218826302,
+            35.66825804099841
+        ],
+        "next_point_name": [
+            139.6966342232827,
+            35.66826509950439
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 19.105417997368747,
+        "reached_wp": true,
+        "distance_ep": 52.89051785403381,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 37,
+        "waypoint_index": 11,
+        "target_waypoint": [
+            139.69668068487593,
+            35.668539513513515
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69667218826302,
+            35.66825804099841
+        ],
+        "cur_point_name": [
+            139.6966342232827,
+            35.66826509950439
+        ],
+        "fly_angle_ccs": 33.558203787941835,
+        "start_xy": [
+            3072,
+            3072
+        ],
+        "block_cnt_xy": [
+            3328,
+            3328
+        ],
+        "nextpt_real_xy": [
+            3408,
+            3226
+        ],
+        "rpch_in_blk_xy": [
+            336,
+            154
+        ],
+        "pixel_xy": [
+            336.9353008678124,
+            154.97379670418331
+        ],
+        "relative_xy": [
+            80.93530086781239,
+            101.02620329581669
+        ],
+        "norm_xy": [
+            0.31615351901489214,
+            -0.39463360662428393
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            12,
+            12
+        ],
+        "block_center": [
+            139.69644780215097,
+            35.6680305045045
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_12_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_12_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_12_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_12_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_037_139.69667218826302_35.66825804099841_33.558203787941835_64.jpg"
+        ],
+        "pos_pred": [
+            0.2863415479660034,
+            -0.7810367941856384
+        ],
+        "dir_pred": [
+            0.6055989265441895,
+            0.6656215190887451
+        ],
+        "cur_point_pred": [
+            139.6966510295794,
+            35.66848083202547
+        ],
+        "cur_angle_pred": 47.70329901346316,
+        "cur_direct_pred": [
+            0.6729699254364497,
+            0.7396698449024803
+        ],
+        "fly_angle_ccs2": 33.558203787941835,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 67.67900219910713,
+        "ref_angle_ccs": 67.67900219910713,
+        "ref_angle_llcs": 63.18977630064487,
+        "fly_direct_ccs": [
+            0.3797952056013065,
+            0.9250705928750851
+        ],
+        "ref_direct_ccs": [
+            0.3797952056013063,
+            0.9250705928750851
+        ],
+        "ref_direct_llcs": [
+            0.45103680403867363,
+            0.8925053509097742
+        ],
+        "ref_direct_llcs_length": 1.0000000000000002,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            0.00010129285035004349,
+            0.00020043688261538227
+        ],
+        "next_point_real": [
+            139.69677348111338,
+            35.668458477881025
+        ],
+        "next_point_name": [
+            139.69675232242977,
+            35.66868126890809
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 7.053603172652572,
+        "reached_wp": true,
+        "distance_ep": 54.28873305279892,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 38,
+        "waypoint_index": 12,
+        "target_waypoint": [
+            139.69622046425278,
+            35.668580054054054
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.69677348111338,
+            35.668458477881025
+        ],
+        "cur_point_name": [
+            139.69675232242977,
+            35.66868126890809
+        ],
+        "fly_angle_ccs": 67.67900219910713,
+        "start_xy": [
+            3072,
+            2816
+        ],
+        "block_cnt_xy": [
+            3328,
+            3072
+        ],
+        "nextpt_real_xy": [
+            3445,
+            3137
+        ],
+        "rpch_in_blk_xy": [
+            373,
+            321
+        ],
+        "pixel_xy": [
+            373.47128451076827,
+            321.97982082345766
+        ],
+        "relative_xy": [
+            117.47128451076829,
+            -65.97982082345766
+        ],
+        "norm_xy": [
+            0.4588722051201886,
+            0.2577336750916315
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            12,
+            11
+        ],
+        "block_center": [
+            139.69644780215097,
+            35.66860708108108
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_11_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_11_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_11_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_11_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_038_139.69677348111338_35.668458477881025_67.67900219910713_64.jpg"
+        ],
+        "pos_pred": [
+            0.6202289462089539,
+            0.8136687278747559
+        ],
+        "dir_pred": [
+            0.5215967893600464,
+            0.8484230041503906
+        ],
+        "cur_point_pred": [
+            139.69688800209641,
+            35.66813793875149
+        ],
+        "cur_angle_pred": 58.417469592568246,
+        "cur_direct_pred": [
+            0.523726188449462,
+            0.8518866588532764
+        ],
+        "fly_angle_ccs2": 67.67900219910713,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 140.81151104367632,
+        "ref_angle_ccs": 140.81151104367632,
+        "ref_angle_llcs": 146.4831936473434,
+        "fly_direct_ccs": [
+            -0.7750714512979233,
+            0.6318735992134273
+        ],
+        "ref_direct_ccs": [
+            -0.7750714512979228,
+            0.6318735992134277
+        ],
+        "ref_direct_llcs": [
+            -0.8337238886230866,
+            0.5521815621144908
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            -0.00018723587150177115,
+            0.00012400771696786085
+        ],
+        "next_point_real": [
+            139.6965862452419,
+            35.668582485597994
+        ],
+        "next_point_name": [
+            139.69670076622492,
+            35.66826194646846
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 51.753696148136854,
+        "reached_wp": false,
+        "distance_ep": 51.753696148136854,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 39,
+        "waypoint_index": 12,
+        "target_waypoint": [
+            139.69622046425278,
+            35.668580054054054
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.6965862452419,
+            35.668582485597994
+        ],
+        "cur_point_name": [
+            139.69670076622492,
+            35.66826194646846
+        ],
+        "fly_angle_ccs": 140.81151104367632,
+        "start_xy": [
+            3072,
+            3072
+        ],
+        "block_cnt_xy": [
+            3328,
+            3328
+        ],
+        "nextpt_real_xy": [
+            3377,
+            3082
+        ],
+        "rpch_in_blk_xy": [
+            305,
+            10
+        ],
+        "pixel_xy": [
+            305.93594796970876,
+            10.92039448857895
+        ],
+        "relative_xy": [
+            49.93594796970874,
+            245.07960551142105
+        ],
+        "norm_xy": [
+            0.19506229675667477,
+            -0.9573422090289885
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            12,
+            12
+        ],
+        "block_center": [
+            139.69644780215097,
+            35.6680305045045
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_12_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_12_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_12_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_12_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_039_139.6965862452419_35.668582485597994_140.81151104367632_64.jpg"
+        ],
+        "pos_pred": [
+            -0.013655170798301697,
+            -0.845960795879364
+        ],
+        "dir_pred": [
+            -0.47911128401756287,
+            0.6641890406608582
+        ],
+        "cur_point_pred": [
+            139.6964381105597,
+            35.668518265684106
+        ],
+        "cur_angle_pred": 125.80471197187885,
+        "cur_direct_pred": [
+            -0.5850243744299453,
+            0.8110157096646471
+        ],
+        "fly_angle_ccs2": 140.81151104367632,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 160.73815863648895,
+        "ref_angle_ccs": 160.73815863648895,
+        "ref_angle_llcs": 164.15110075692382,
+        "fly_direct_ccs": [
+            -0.9440208628077125,
+            0.32988575383575164
+        ],
+        "ref_direct_ccs": [
+            -0.9440208628077125,
+            0.3298857538357514
+        ],
+        "ref_direct_llcs": [
+            -0.9619852647891141,
+            0.27310135541336694
+        ],
+        "ref_direct_llcs_length": 1.0,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            -0.0002160405283841884,
+            6.133249986825524e-05
+        ],
+        "next_point_real": [
+            139.6963702047135,
+            35.66864381809786
+        ],
+        "next_point_name": [
+            139.69622207003133,
+            35.668579598183975
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 20.827001939027276,
+        "reached_wp": false,
+        "distance_ep": 33.043981553435,
+        "reached_ep": false
+    },
+    {
+        "uav_frame_id": 40,
+        "waypoint_index": 12,
+        "target_waypoint": [
+            139.69622046425278,
+            35.668580054054054
+        ],
+        "step_id1": " --- 1.Originalization ---",
+        "cur_point_real": [
+            139.6963702047135,
+            35.66864381809786
+        ],
+        "cur_point_name": [
+            139.69622207003133,
+            35.668579598183975
+        ],
+        "fly_angle_ccs": 160.73815863648895,
+        "start_xy": [
+            3072,
+            2816
+        ],
+        "block_cnt_xy": [
+            3328,
+            3072
+        ],
+        "nextpt_real_xy": [
+            3300,
+            3055
+        ],
+        "rpch_in_blk_xy": [
+            228,
+            239
+        ],
+        "pixel_xy": [
+            228.01087050093656,
+            239.6887645474235
+        ],
+        "relative_xy": [
+            -27.989129499063424,
+            16.31123545257651
+        ],
+        "norm_xy": [
+            -0.1093325371057165,
+            -0.063715763486627
+        ],
+        "step_id2": " --- 2.Regression RA ---",
+        "block_indices": [
+            12,
+            11
+        ],
+        "block_center": [
+            139.69644780215097,
+            35.66860708108108
+        ],
+        "patches_fdirs": [
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_11_base_00.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_11_base_10.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_11_base_01.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_block_12_11_base_11.png",
+            "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900/traj_patches/34bc_50_040_139.6963702047135_35.66864381809786_160.73815863648895_64.jpg"
+        ],
+        "pos_pred": [
+            0.24532710015773773,
+            -0.1823148876428604
+        ],
+        "dir_pred": [
+            0.7160751819610596,
+            -0.1250966191291809
+        ],
+        "cur_point_pred": [
+            139.6966219200743,
+            35.668712199574856
+        ],
+        "cur_angle_pred": 350.09056648527144,
+        "cur_direct_pred": [
+            0.9850810053825124,
+            -0.17209129215209706
+        ],
+        "fly_angle_ccs2": 160.73815863648895,
+        "step_id3": " ---3.Update fly angle --- ",
+        "fly_angle_ccs3": 202.05657490747907,
+        "ref_angle_ccs": 202.05657490747907,
+        "ref_angle_llcs": 198.21977619426286,
+        "fly_direct_ccs": [
+            -0.9268135091804,
+            -0.37552192905436643
+        ],
+        "ref_direct_ccs": [
+            -0.9268135091804001,
+            -0.37552192905436615
+        ],
+        "ref_direct_llcs": [
+            -0.9498641895113931,
+            -0.31266279197222074
+        ],
+        "ref_direct_llcs_length": 0.9999999999999999,
+        "step_id4": " --- 4.Moving one step --- ",
+        "cur_step_llcs": [
+            -0.0002133184040404674,
+            -7.021712000813438e-05
+        ],
+        "next_point_real": [
+            139.69615688630947,
+            35.66857360097786
+        ],
+        "next_point_name": [
+            139.69640860167027,
+            35.66864198245485
+        ],
+        "step_id5": " --- 5.Check distance --- ",
+        "distance_wp": 15.272404139396793,
+        "reached_wp": true,
+        "distance_ep": 15.272404139396793,
+        "reached_ep": true
+    }
+]

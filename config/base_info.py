@@ -47,10 +47,12 @@ image_id_map["35.67091338738739_139.69289911300856_1791.95_1024_1024_4326_city.j
 image_id_map["25.030947387387386_121.51462868800057_1791.95_1024_1024_4326_city.jpg"] = '36bc'  # Taipei, Taiwan -- 0.25m/pixel
 image_id_map["1.2897673873873876_103.84197619336068_1791.95_1024_1024_4326_city.jpg"] = '37bc'  # Singapore, Singapore -- 0.25m/pixel
 image_id_map["37.75538738738739_-122.4533351740761_1791.95_1024_1024_4326_city.jpg"] = '38bc'   # San Francisco, USA -- 0.25m/pixel
+image_id_map["-46.9_2.05_1000_1024_0.4_ny_city.jpg"] = 'ny'   # AirSim ModernCity NewYork
 
 # Fusion RSI dictionary (7 fusion combos for c8 maps; c2=31+32, c3=31+32+33, etc.)
 # This tag appears in trained model directory names.
-rsi_type = "254k"  # set according to the RSI category in use
+rsi_type = "40_1024"  # AirSim RSI resolution：40cm/pixel, 1024*1024 pixel side
+# rsi_type = "254k"  # set according to the RSI category in use
 # rsi_type = '1m4k'
 
 d_rsi_paras = {
@@ -83,11 +85,20 @@ d_rsi_paras = {
         "fov_unit": 512 * 256 / 4096,
     },  # 35.94 m
     "145k": {
+        "pyr":1,
         "rsi_size": 5120,
         "n_block": 19,
         "alt_unit": 115.0,
         "fov_unit": 720 * 256 / 5128,
     },  # 35.94 m
+    # AirSim RSI:
+    "40_1024": {
+        "pyr":1,
+        "rsi_size": 1024,
+        "n_block": 3,
+        "alt_unit": 100.0,
+        "fov_unit": 0.4 * 256,
+    },  # 102.4 m: PATCH_SIZE in meters at current resolution
 }
 ALT_UNIT = 102.2628
 d_rsi_paras_pyr = {
@@ -119,6 +130,14 @@ d_rsi_paras_pyr = {
         "alt_ref": ALT_UNIT,
         "fov_ref": 32,
     },  # 35.94 m
+    # AirSim RSI:
+    "40_1024": {
+        "pyr":1,
+        "rsi_size": 1024,
+        "n_block": 3,
+        "alt_ref": 100.0 * ALT_UNIT/102.2628,
+        "fov_ref": 256,
+    },  # 102.4 m: PATCH_SIZE in meters at current resolution
 }
 
 
@@ -224,6 +243,10 @@ def get_rsidir_dsetdir_cityid(
         elif rsi_id in ['31bc', '32bc', '33bc', '34bc', '35bc', '36bc', '37bc', '38bc', '39bc']:
             head_stem = 'c1'
             dset_name = f'{head_stem}_{rsi_type}_{rsi_id}_b{N_BLOCK}_s{n_sample}'
+        else:  #['ny'] 
+            temple_block = 3  #debug asny
+            head_stem = 'c1'
+            dset_name = f'{head_stem}_{rsi_type}_{rsi_id}_b{temple_block}_s{n_sample}'
         
         # e.g., c1_254k_34bc_b15_s100, c1_254k_37bc_b15_s100_v3d
         rsi_city_dir = rsi_dir_city8_25pp_4096bc

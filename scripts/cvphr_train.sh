@@ -15,12 +15,20 @@ export PYTHONPATH="$REPO_ROOT:${PYTHONPATH}"
 # Debug:    1.'37bc'+1+1+1; 2. 96+0/1+1+1. 
 # Training: 1. 96+0/1+100+(1~100). 
 
-rsi_id='37bc'  #'37bc' for debug; 96 for training
-is_3d=1  # 0=2d: satellite view, 1=3d: U-S cross-view
+# If train AirSim city dataset:
+rsi_id='ny'  #'ny' AirSim city
+block=3
+sample=10  #for debug
+
+# If train GoogleEarth city dataset:
+# rsi_id='37bc'  #'37bc' for debug; 96 for training
+# block=15
+# sample=1  #for debug
+
 # sample=100  # for training, 1 or 100 
 # epoch=100  # for training, 1-100
-sample=1  #for debug
 epoch=1  #for debug
+is_3d=1  # 0=2d: satellite view, 1=3d: U-S cross-view
 
 log_gcth="${gcth^^}"          # NONE
 timestamp=$(date +%Y%m%d_%H%M%S)
@@ -35,6 +43,7 @@ nohup /usr/bin/time -v python -m cvphr.train.cvphr_train \
     --is_3d "$is_3d" \
     --rsi_id "$rsi_id" \
     --n_sample "$sample" \
+    --n_block "$block" \
     --num_epochs "$epoch" \
     > "$log_file" 2>&1 &
 

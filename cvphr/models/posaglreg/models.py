@@ -13,6 +13,7 @@ from torchvision import models
 from torch.utils.data import Dataset, DataLoader, random_split
 from PIL import Image
 from importlib import import_module
+from typing import Literal, Tuple, List, Dict
 
 
 from sceneGraphEncodingNet.nets import CSMG, JointNet
@@ -523,7 +524,7 @@ class RSBlockDatasetPA_v3q(Dataset):
         return sample
 
     # Convenience: External processes (navigation/feature table creation) quickly get paths of 5 images
-    def get_patch_paths(self, idx: int) -> list[str]:
+    def get_patch_paths(self, idx: int) -> List[str]:
         row = self.df.iloc[idx]
         return [row[c] for c in self.base_patch_cols] + [row[self.uav_col]]
 

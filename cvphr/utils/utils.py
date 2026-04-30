@@ -14,7 +14,7 @@ import torchvision
 import torch.nn as nn
 from pathlib import Path
 from decimal import Decimal
-from typing import Literal, Tuple
+from typing import Literal, Tuple, List, Dict
 from collections.abc import Mapping, Iterable
 from matplotlib.font_manager import FontProperties
 import sys
@@ -1711,9 +1711,9 @@ def vis_waypoints_uavtrajs_on_fig_v4(
     plt.close()
 
 def convert_ccs_to_llcs_vector(
-    dir_pred_ccs: tuple[float, float], 
+    dir_pred_ccs: Tuple[float, float], 
     current_lat: float
-) -> tuple[float, float]:
+) -> Tuple[float, float]:
     """
     Convert direction vector from Cartesian coordinate system to longitude-latitude coordinate system, considering latitude's impact on vertical axis.
     """
@@ -1731,9 +1731,9 @@ def convert_ccs_to_llcs_vector(
     return normalize_vector([dx_llcs, dy_llcs])
 
 def convert_llcs_to_ccs_vector(
-    dir_pred_llcs: tuple[float, float], 
+    dir_pred_llcs: Tuple[float, float], 
     current_lat: float
-) -> tuple[float, float]:
+) -> Tuple[float, float]:
     """
     Convert direction vector from longitude-latitude coordinate system to Cartesian coordinate system, considering latitude's impact on longitude direction.
     """
@@ -1750,10 +1750,10 @@ def convert_llcs_to_ccs_vector(
     return normalize_vector([dx_ccs, dy_ccs])
 
 def calculate_lon_lat_step_underllcs(
-    cur_point_name: tuple[float, float],  # Current longitude-latitude (lon, lat)
-    ref_direct_llcs: tuple[float, float],  # Meter-based direction vector [dlon, dlat], latitude scaling considered
+    cur_point_name: Tuple[float, float],  # Current longitude-latitude (lon, lat)
+    ref_direct_llcs: Tuple[float, float],  # Meter-based direction vector [dlon, dlat], latitude scaling considered
     uav_step: float                        # Step length forward (meters)
-) -> tuple[float, float]:
+) -> Tuple[float, float]:
     """
     Directly calculate step angle values under llcs longitude-latitude coordinate system.
     """

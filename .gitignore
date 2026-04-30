@@ -37,6 +37,7 @@ check_2traj
 loc2traj/*_timestamp*/
 results/
 datasets/
+data/
 *.pth
 *.pt
 *.ckpt

@@ -324,6 +324,7 @@ def test_par(dataset_dir,
     rsi_ids         = np.array(rsi_ids)  # Length == pred_positions.shape[0]
 
     test_loss = test_loss / len(test_loader.dataset)
+    print(f"rsi_ids:", rsi_ids)
     print(f"Test Loss: {test_loss:.4f}")
     print(f'In test_par, rs_image_path={d_rs_image_path}')
 

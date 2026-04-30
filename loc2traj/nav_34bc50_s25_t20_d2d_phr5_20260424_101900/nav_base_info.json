@@ -1,0 +1,33 @@
+{
+  "file_name": "nav.py",
+  "model_name": "phr5",
+  "model_class": "PARCASGM_v5a",
+  "model_kwargs": {
+    "backbone_name": "vgg16",
+    "feature_dim": 256,
+    "coord_enc_dims": [
+      16,
+      64,
+      256
+    ],
+    "regressor_dims": [
+      1024,
+      256,
+      64
+    ],
+    "reduction_ratio": 1,
+    "num_clusters": 4,
+    "freeze_backbone": true,
+    "partial_unfreeze": false,
+    "add_patch_coord": true
+  },
+  "dataset_kwargs": {},
+  "posreg_model_dir": "./Bearing_UAV/satellite_view/best_model.pth",
+  "output_dir": "/home/lkj/proj/bearinguav/loc2traj/nav_34bc50_s25_t20_d2d_phr5_20260424_101900",
+  "rs_image_dir": "/home/lkj/proj/bearinguav/Bearing_UAV_90K/city_rsi/35.67091338738739_139.69289911300856_1791.95_1024_1024_4326_city.jpg",
+  "rsi_type": "254k",
+  "rs_traj_id": "34bc_50",
+  "uav_step": 25,
+  "th_arrive": 20,
+  "uav_2d3d": "2d"
+}
