@@ -1,6 +1,6 @@
 
 
-安装方式（强烈建议这样做）
+虚拟环境安装
 1️⃣ 创建环境
 conda create -n bearing_env python=3.9 -y
 conda activate bearing_env
@@ -16,3 +16,23 @@ pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 \
   --index-url https://download.pytorch.org/whl/cu118 \
   --extra-index-url https://pypi.tuna.tsinghua.edu.cn/simple
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn
+
+
+
+
+
+Virtual Environment Setup
+Create environment
+```bash
+conda create -n bearing_env python=3.9 -y
+conda activate bearing_env
+```
+Install PyTorch
+```bash
+pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 \
+--index-url https://download.pytorch.org/whl/cu118
+```
+Install other dependencies
+```bash
+pip install -r requirements.txt
+```

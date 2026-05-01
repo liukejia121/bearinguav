@@ -16,7 +16,6 @@ from config.base_info import (
     reminder_proper_rsi_type,
     DATASET_SPLIT_RATIO,
     PH_LOSS_WEIGHT,
-    dset_dir,
     rsi_type, 
     d_merge_rsis,
     get_rsi_name,
@@ -621,7 +620,7 @@ if __name__ == '__main__':
             test_id = '96bc'
 
         rsi_city_dir, dset_root, dset_name, city_id = get_rsidir_dsetdir_cityid(
-            rsi_id, rsi_type, dset_dir, n_sample, view2d3d
+            rsi_id, rsi_type, n_sample, view2d3d
         )
         print(f"rsi_city_dir: {rsi_city_dir}")
         print(f"dset_root: {dset_root}")

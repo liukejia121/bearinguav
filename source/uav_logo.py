@@ -209,10 +209,10 @@ def overlay_drone_logo(
 
 def draw_transparent_circle(
     target_img: np.ndarray,
-    center: tuple[int, int],
+    center: Tuple[int, int],
     radius: int = 5,
-    edge_color: tuple[int, int, int] = (0, 255, 255),  # Yellow edge (BGR)
-    fill_color: tuple[int, int, int] = (0, 165, 255),  # Orange center (BGR)
+    edge_color: Tuple[int, int, int] = (0, 255, 255),  # Yellow edge (BGR)
+    fill_color: Tuple[int, int, int] = (0, 165, 255),  # Orange center (BGR)
     edge_width: int = 1,
     alpha: float = 0.7  # Overall transparency (0.0-1.0)
 ) -> np.ndarray:

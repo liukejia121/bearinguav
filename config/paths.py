@@ -2,17 +2,45 @@
 from pathlib import Path
 import sys
 
+"""
+📌用 __file__ 推导路径：
+from pathlib import Path
+def project_root() -> Path:
+    #Return root directory of bearinguav module.
+    return Path(__file__).resolve().parents[2]
+
+当前文件位置：bearingnav/model/bearinguav/config/paths.py
+路径层级：
+level	path
+0	paths.py
+1	config
+2	bearinguav ✅
+3	model
+4	bearingnav
+"""
+
 def project_root() -> Path:
     """
-    Get project root directory path.
-    Note: This function requires the cvphr module to be imported.
+    Dynamically find 'bearinguav' root directory.
     """
-    import cvphr
-    # The parent directory of the directory where cvphr/__init__.py is located is the repo root (adjust according to repo structure)
-    return Path(cvphr.__file__).resolve().parent.parent
+    p = Path(__file__).resolve()
+    for parent in p.parents:
+        if parent.name == "bearinguav":
+            return parent
+    raise RuntimeError("bearinguav root not found")
+
+def dataset_path(name: str) -> Path:
+    """
+    Return root directory of dataset.
+    """
+    p = Path(__file__).resolve()
+    for parent in p.parents:
+        if parent.name == "bearinguav":
+            return parent / name
+    raise RuntimeError("bearinguav root not found")
 
 # ---------- Project root directory
-proj_dir = project_root()  #".../cvphr"
+proj_dir = project_root()  #"/your/path/of/proj/bearingnav/model/bearinguav" 
 print(" * The project dir:", proj_dir)
 
 # # ---------- Dataset root directory
@@ -23,19 +51,18 @@ print(" * The project dir:", proj_dir)
 # rsi_docu_name = "city8_25pp_4096bc"  #"city8_1mpp_4096"
 
 # ---------- Dataset root directory
-dset_dir = proj_dir  #"/your/path/of/proj/bearinguav"  # Change to your path.
 # Folder name for storing cvphr dataset
 dset_cvphr_name = "Bearing_UAV_90K"  
 # Folder name for storing full-size remote sensing images
 rsi_docu_name = "city_rsi"  
 
 # ---------- Default folder name and path for storing cvphr dataset
-cvphr_dir = f"{dset_dir}/{dset_cvphr_name}"
+dset_dir = f"{proj_dir}/{dset_cvphr_name}"  #"/your/path/of/proj/bearinguav/Bearing_UAV_90K"
 # .../dataset/posreg_dataset
 # posreg_dataset_root --> cvphr_dir
 
 # ---------- Path for saving full-size remote sensing images: city8_25pp_4096bc
-rsi_dir_city8_25pp_4096bc = f'{cvphr_dir}/{rsi_docu_name}'
+rsi_dir_city8_25pp_4096bc = f'{dset_dir}/{rsi_docu_name}'
 # .../dataset/posreg_dataset/city8_25pp_4096bc
 
 # Legacy RSI path for Birmingham city

@@ -12,10 +12,6 @@ from .paths import (
     # ---------- Dataset root directory
     dset_dir,  # ".../dataset"
 
-    # ---------- Default path for cvphr dataset
-    cvphr_dir,
-    # .../dataset/posreg_dataset
-
     # ---------- Path to save full-size remote sensing images: 
     rsi_dir_city8_25pp_4096bc,
     # .../dataset/posreg_dataset/city8_25pp_4096bc
@@ -214,7 +210,6 @@ def get_rsi_name(rsi_id):
 def get_rsidir_dsetdir_cityid(
     rsi_id, 
     rsi_type, 
-    dset_dir, 
     n_sample, 
     version='', 
     flag_pyr='', 
@@ -250,7 +245,7 @@ def get_rsidir_dsetdir_cityid(
         
         # e.g., c1_254k_34bc_b15_s100, c1_254k_37bc_b15_s100_v3d
         rsi_city_dir = rsi_dir_city8_25pp_4096bc
-        dset_root = f"{cvphr_dir}"
+        dset_root = f"{dset_dir}"
         city_id = rsi_id
         if version == '2d':
             dset_name = dset_name

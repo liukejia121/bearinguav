@@ -15,8 +15,6 @@ from torch.utils.tensorboard import SummaryWriter
 
 # static vars
 from config.base_info import (
-    proj_dir, 
-    dset_dir,
     rsi_type, 
     d_merge_rsis,
     get_rsi_name,
@@ -689,7 +687,6 @@ if __name__ == '__main__':
     rsi_city_dir, dset_root, dset_name, city_id = get_rsidir_dsetdir_cityid(
         rsi_id, 
         rsi_type, 
-        dset_dir, 
         n_sample, 
         view2d3d, 
         flag_pyr='',  #'' for fixed height
@@ -712,8 +709,8 @@ if __name__ == '__main__':
     city_rsi_id_str = str(city_id).zfill(3) + str(rsi_id).zfill(3)  # no use
 
     # Dataset path
-    dset_dir = f'{dset_root}/{dset_name}'
-    print(" * Dataset：", dset_dir)
+    dataset_path = f'{dset_root}/{dset_name}'
+    print(" * Dataset path:", dataset_path)
 
     rsi_id_str = str(rsi_id).zfill(2)
     dset_id_str = str(rsi_id).zfill(2) + str(n_sample).zfill(2) + f'_{view2d3d}'
@@ -730,7 +727,7 @@ if __name__ == '__main__':
         'rsi_name': rsi_name,
         'rs_image_path': d_rs_image_path,
         'dset_name': dset_name,
-        'dset_dir': dset_dir,
+        'dataset_path': dataset_path,
         "augname": "Noop",  #Weather aug: Mixed, Rain,Snow,Cloud,Brightness,Noop
     }
     if 'weather' in args.dataset_class:
@@ -748,7 +745,7 @@ if __name__ == '__main__':
 
         # Use custom model and dataset class
         train_par(
-            dataset_dir=dset_dir,
+            dataset_dir=dataset_path,
             device_id=device_id,
             num_epochs=num_epochs,
             factor_bslr=factor_bslr,  # 1-b32, 2-b64, 4-b128
